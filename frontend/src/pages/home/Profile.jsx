@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { useUpdateUserProfileMutation } from "../../redux/features/auth/authApi";
-import avatarImg from "/Users/sayyednigar/Desktop/careerReadiness/frontend/src/assets/avatarImg.png";
+import avatarImg from "../../assets/avatarImg.png";
+
 
 const Profile = () => {
     const { user } = useSelector((state) => state.auth);

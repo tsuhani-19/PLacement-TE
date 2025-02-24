@@ -61,20 +61,26 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/shop" className="hover:text-primary transition duration-200">
-              Shop
+            <Link to="/Resume" className="hover:text-primary transition duration-200">
+              Resume
+            </Link>
+          </li>
+          <li>
+            <Link to="/HigherStudies" className="hover:text-primary transition duration-200">
+              Education
+            </Link>
+          </li>
+          <li>
+            <Link to="/Placement" className="hover:text-primary transition duration-200">
+              Placement
             </Link>
           </li>
           <li>
             <Link to="/" className="hover:text-primary transition duration-200">
-              Pages
+              Entreprenuership
             </Link>
           </li>
-          <li>
-            <Link to="/contact" className="hover:text-primary transition duration-200">
-              Contact
-            </Link>
-          </li>
+
         </ul>
 
         <div className="nav__icons flex space-x-4">

@@ -7,6 +7,15 @@ import Register from "../components/Register";
 import Profile from "../pages/home/Profile"; 
 import Year2ElectronicsPage from "../components/year2electronics";
 import Year1ComputerPage from "../components/year1computer";
+import Resume from "../pages/Resume";
+import HigherStudies from "../pages/higher/HigherStudies";
+import Gate from "../pages/higher/Gate";
+import Placement from "../pages/home/Placement";
+import Aptitude from "../pages/SampleGuide/Aptitude";
+import GDround from "../pages/SampleGuide/GDround";
+import Technical from "../pages/SampleGuide/Technical";
+import Interview from "../pages/SampleGuide/Interveiw";
+
 
 
   
@@ -43,6 +52,31 @@ const router = createBrowserRouter([
       },{
         path:"/year1computer",
         element:<Year1ComputerPage />
+      },{
+        path:"/Resume",
+        element:<Resume />
+      },{
+        path:"/HigherStudies",
+        element:<HigherStudies/>
+      },{
+        path:"/Gate",
+        element:<Gate/>
+      },{
+        path:"/Placement",
+        element:<Placement/>
+      },{
+        path:"/Aptitude",
+        element:<Aptitude/>
+      },{
+        path:"/GDround",
+        element:<GDround/>
+      },{
+        path:"/Interview",
+        element:<Interview/>
+      },
+      {
+        path:"/Technical",
+        element:<Technical/>
       }
     ],
   },
