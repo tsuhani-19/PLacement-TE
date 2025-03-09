@@ -5,21 +5,20 @@ import React from 'react';
 import Login from "../components/Login";
 import Register from "../components/Register";
 import Profile from "../pages/home/Profile"; 
-import Year2ElectronicsPage from "../components/year2electronics";
 import Year1ComputerPage from "../components/year1computer";
-import Resume from "../pages/Resume";
-import HigherStudies from "../pages/higher/HigherStudies";
-import Gate from "../pages/higher/Gate";
-import Placement from "../pages/home/Placement";
-import Aptitude from "../pages/SampleGuide/Aptitude";
-import GDround from "../pages/SampleGuide/GDround";
-import Technical from "../pages/SampleGuide/Technical";
-import Interview from "../pages/SampleGuide/Interveiw";
-
-
-
-  
-
+import ResumeBuilding from "../pages/Resume";
+import HigherStudies from "../pages/higher/HigherStudies.jsx";
+import Gate from "../pages/higher/Gate.jsx";
+import Placement from "../pages/Placement.jsx";
+import AptitudeTest from "../pages/SampleGuide/Aptitude.jsx";
+import GDRound from "../pages/SampleGuide/GDround.jsx";
+import TechnicalRound from "../pages/SampleGuide/Technical.jsx";
+import Interview from "../pages/SampleGuide/Interveiw.jsx";
+import Entrepreneur from "../pages/Entrepreneur.jsx";
+import CatExam from "../pages/higher/CatExam.jsx";
+import Ies from "../pages/higher/IES.jsx";
+import Isro from "../pages/higher/IsroExam.jsx";
+import Barc from "../pages/higher/BarcExam.jsx";
 
 const router = createBrowserRouter([
   {
@@ -31,10 +30,6 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/about",
-        element: <div>about page</div>,
-      },
-      {
         path: "/login",
         element: <Login />,
       },
@@ -43,41 +38,72 @@ const router = createBrowserRouter([
         element: <Register />,
       },
       {
-        path: "/dashboard/profile",  // Add this route
+        path: "/dashboard/profile",
         element: <Profile />,
       },
+   
       {
-        path:"/year2electronics" ,
-        element:<Year2ElectronicsPage /> 
-      },{
-        path:"/year1computer",
-        element:<Year1ComputerPage />
-      },{
-        path:"/Resume",
-        element:<Resume />
-      },{
-        path:"/HigherStudies",
-        element:<HigherStudies/>
-      },{
-        path:"/Gate",
-        element:<Gate/>
-      },{
-        path:"/Placement",
-        element:<Placement/>
-      },{
-        path:"/Aptitude",
-        element:<Aptitude/>
-      },{
-        path:"/GDround",
-        element:<GDround/>
-      },{
-        path:"/Interview",
-        element:<Interview/>
+        path: "/year1computer",
+        element: <Year1ComputerPage />,
       },
       {
-        path:"/Technical",
-        element:<Technical/>
-      }
+        path: "/Resume",
+        element: <ResumeBuilding />,
+      },
+      {
+        path: "/HigherStudies",
+        element: <HigherStudies />,
+      },
+      {
+        path: "/HigherStudies/gate",
+        element: <Gate />,
+      },
+      {
+        path:"/HigherStudies/CatExam",
+        element:<CatExam/>,
+      },
+      {
+        path:"/Entrepreneur",
+        element:<Entrepreneur/>,
+      },
+      {
+        path:"/HigherStudies/IES",
+        element:<Ies/>,
+      },
+      {
+        path:"/HigherStudies/Isro",
+        element: <Isro/>,
+      },
+      {
+        path:"/HigherStudies/BARC",
+        element: <Barc/>,
+
+      },
+     
+      {
+        path: "/placement",
+        element: <Placement />,
+      },
+      {
+        path: "/placement/aptitude-test",
+        element: <AptitudeTest />,
+      },
+      {
+        path: "/placement/technical-round",
+        element: <TechnicalRound />,
+      },
+      {
+        path: "/placement/gd-round",
+        element: <GDRound />,
+      },
+      {
+        path: "/placement/interview",
+        element: <Interview />,
+      },
+      {
+        path: "*",
+        element: <h2>404 - Page Not Found</h2>,
+      },
     ],
   },
 ]);

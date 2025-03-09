@@ -76,7 +76,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/" className="hover:text-primary transition duration-200">
+            <Link to="/Entrepreneur" className="hover:text-primary transition duration-200">
               Entreprenuership
             </Link>
           </li>
