@@ -109,43 +109,94 @@ router.patch('/edit-profile', async (req, res) => {
     res.status(500).send({ message: 'Error editing profile' });
   }
 });
-
 router.get('/me', async (req, res) => {
   try {
-    const token = req.cookies.token; // Get token from cookies
-    if (!token) return res.status(401).send({ message: "Unauthorized" });
+      const token = req.cookies.token; // Get token from cookies
+      if (!token) return res.status(401).send({ message: "Unauthorized" });
 
-    const decoded = jwt.verify(token, process.env.JWT_SECRET); // Verify token
-    const user = await User.findById(decoded.id); // Fetch user by ID
-    if (!user) return res.status(404).send({ message: "User not found" });
+      const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY); // Verify token
+      const user = await User.findById(decoded.id); // Fetch user by ID
+      if (!user) return res.status(404).send({ message: "User not found" });
 
-    res.status(200).send({
-      _id: user._id,
-      Name: user.Name,
-      email: user.email,
-      Year: user.Year,
-      Branch: user.Branch,
-      role: user.role,
-      profileImage: user.profileImage,
-      bio: user.bio,
-      profession: user.profession,
-    });
+      res.status(200).send({
+          _id: user._id,
+          Name: user.Name,
+          email: user.email,
+          Year: user.Year,
+          Branch: user.Branch,
+          role: user.role,
+          profileImage: user.profileImage,
+          bio: user.bio,
+          profession: user.profession,
+          skills: user.skills, // Include skills
+          cgpa: user.cgpa, // Include CGPA
+      });
   } catch (error) {
-    console.error("Error fetching user data:", error);
-    res.status(500).send({ message: "Error fetching user data" });
+      console.error("Error fetching user data:", error);
+      res.status(500).send({ message: "Error fetching user data" });
+  }
+});
+router.get('/users/:id', async (req, res) => {
+  try {
+      const user = await User.findById(req.params.id);
+      if (!user) {
+          return res.status(404).send({ message: "User not found" });
+      }
+
+      res.status(200).send(user);
+  } catch (error) {
+      console.error("Error fetching user data:", error);
+      res.status(500).send({ message: "Error fetching user data" });
   }
 });
 // Update user profile
 router.post("/update-profile", async (req, res) => {
-  const { userId, Name, skills, cgpa } = req.body;
-  const user = await User.findById(userId);
-  if (!user) return res.status(404).json({ message: "User not found" });
-  if (Name) user.Name = Name;
-  if (skills) user.skills = skills; // Ensure your User model has this field
-  if (cgpa) user.cgpa = cgpa;
-  await user.save();
+  console.log("Request body:", req.body);
 
-  res.status(200).json({ message: "Profile updated successfully", user });
+  const { userId, Name, skills, cgpa } = req.body;
+
+  if (!userId) {
+      return res.status(400).json({ message: "User ID is required" });
+  }
+
+  try {
+      const user = await User.findById(userId);
+      if (!user) {
+          return res.status(404).json({ message: "User not found" });
+      }
+
+      if (Name) user.Name = Name;
+      if (skills) user.skills = skills;
+      if (cgpa) {
+          if (isNaN(cgpa)) {
+              return res.status(400).json({ message: "CGPA must be a number" });
+          }
+          user.cgpa = cgpa;
+      }
+
+      await user.save();
+      console.log("Updated user:", user);
+
+      res.status(200).json({
+          message: "Profile updated successfully",
+          user: {
+              _id: user._id,
+              Name: user.Name,
+              email: user.email,
+              skills: user.skills,
+              cgpa: user.cgpa,
+              Year: user.Year,
+              Branch: user.Branch,
+              role: user.role,
+              profileImage: user.profileImage,
+              bio: user.bio,
+              profession: user.profession,
+          },
+      });
+  } catch (err) {
+      console.error("Error updating profile:", err);
+      res.status(500).json({ message: "Internal server error" });
+  }
 });
 router.post('/create-admin', async (req, res) => {
   try {
