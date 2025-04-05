@@ -15,6 +15,7 @@ const userSchema = new Schema({
     createdAt: { type: Date, default: Date.now },
     skills: { type: String }, // Add this field
     cgpa: { type: String },
+    preferedcompany:{type: String},
     
     isAdmin: { type: Boolean, default: false },
 });

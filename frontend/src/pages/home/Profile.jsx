@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import { useUpdateUserProfileMutation ,useGetUserQuery} from "../../redux/features/auth/authApi";
 import avatarImg from "../../assets/avatarImg.png";
 
@@ -8,6 +9,7 @@ const Profile = () => {
     const { user } = useSelector((state) => state.auth);
     const [updateUserProfile] = useUpdateUserProfileMutation();
     const { data: userData, refetch } = useGetUserQuery();
+    const navigate = useNavigate();
 
     const [formData, setFormData] = useState({
         Name: "",
@@ -17,6 +19,7 @@ const Profile = () => {
         Year: "",
         Branch: "",
         role: "",
+        preferedcompany:"",
         profileImageUrl: "",
     });
 
@@ -48,6 +51,7 @@ const Profile = () => {
                     Branch: userData.Branch || "",
                     role: userData.role || "",
                     profileImageUrl: userData.profileImage || "",
+                    preferedcompany:userData.preferedcompany||"",
                     userId: user.user._id || "",
                 });
             } catch (err) {
@@ -83,7 +87,7 @@ const Profile = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
     
-        const { Name, skills, cgpa, userId } = formData;
+        const { Name, skills, cgpa, userId,preferedcompany } = formData;
     
         if (!userId) {
             alert("User ID is missing. Please log in again.");
@@ -95,6 +99,7 @@ const Profile = () => {
             Name,
             skills,
             cgpa,
+            preferedcompany,
         };
     
         console.log("Sending profile data:", profileData);
@@ -127,6 +132,7 @@ const Profile = () => {
                 Year: userData.Year || formData.Year,
                 Branch: userData.Branch || formData.Branch,
                 role: userData.role || formData.role,
+                preferedcompany:userData.preferedcompany || formData.preferedcompany,
                 profileImageUrl: userData.profileImage || formData.profileImageUrl,
             });
     
@@ -208,6 +214,7 @@ const Profile = () => {
                         id="email"
                         name="email"
                         value={formData.email}
+                        
                         readOnly
                         className="w-full border rounded-lg p-2 text-gray-700 bg-gray-200 cursor-not-allowed"
                     />
@@ -255,6 +262,29 @@ const Profile = () => {
         onChange={handleChange} // Handle changes
         className="w-full border rounded-lg p-2 text-gray-700"
     />
+</div>
+<div>
+  <label htmlFor="preferedcompany" className="block text-gray-700 font-bold mb-2">
+    Preferred Company
+  </label>
+  <select
+    id="preferedcompany"
+    name="preferedcompany"
+    value={formData.preferedcompany} // Controlled value
+    onChange={handleChange} // Handle changes
+    className="w-full border rounded-lg p-2 text-gray-700"
+  >
+    <option value="">Select a company</option>
+    <option value="TCS">TCS</option>
+    <option value="SECLORE">SECLORE</option>
+    <option value="NUCSOFT">NUCSOFT</option>
+    <option value="AMAZON">AMAZON</option>
+    <option value="IBM">IBM</option>
+    <option value="ACCENTURE">Accenture</option>
+    <option value="INFOSYS">Infosys</option>
+    <option value="WIPRO">Wipro</option>
+    {/* Add more companies as needed */}
+  </select>
 </div>
 
              

@@ -5,10 +5,11 @@ const HowItWorks = () => {
     <div className="w-full py-10 bg-white flex flex-col items-center">
       <h2 className="text-2xl font-bold mb-6">Let’s See How it Works</h2>
 
-      <div className="flex justify-center gap-8 mb-10">
+      {/* Steps Section */}
+      <div className="flex justify-center gap-20 mb-28"> {/* Increased margin-bottom */}
         {[
           { step: "1", title: "Profile Creation", desc: "Create Your Profile" },
-          { step: "2", title: "Competency Diagnostic Tool", desc: "Assess Your Skills" },
+          { step: "2", title: "Placement Ready Prediction", desc: "Assess Your Skills" },
           { step: "3", title: "Recommendations", desc: "Get Personalized Recommendations" }
         ].map((item, index) => (
           <div key={index} className="flex flex-col items-center">
@@ -21,7 +22,8 @@ const HowItWorks = () => {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 max-w-5xl">
+      {/* Grid Section */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-20 px-4 max-w-6xl">
         {[
           {
             icon: "↔️",
@@ -30,13 +32,13 @@ const HowItWorks = () => {
           },
           {
             icon: "📋",
-            title: "Curated Internship Opportunities",
-            desc: "Access a comprehensive list of internship opportunities that align with your academic background."
+            title: "Placement Ready Prediction",
+            desc: "Ready to know if you are placement ready or not."
           },
           {
             icon: "⚙️",
             title: "Skill Development Workshops",
-            desc: "Explore various courses and workshops designed to bridge the gap between your current skills and industry demands."
+            desc: "Explore various courses and workshops designed to bridge the gap between your current skills and placement demands."
           }
         ].map((item, index) => (
           <div

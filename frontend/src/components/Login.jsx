@@ -46,7 +46,7 @@ const Login = () => {
             navigate("/year4-mechanical");
         } else {
             console.log("No matching condition found. Navigating to default page.");
-            navigate("/"); // Default fallback page
+             // Default fallback page
         }
     } catch (error) {
         console.error("Login failed:", error);

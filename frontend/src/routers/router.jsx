@@ -19,6 +19,7 @@ import CatExam from "../pages/higher/CatExam.jsx";
 import Ies from "../pages/higher/IES.jsx";
 import Isro from "../pages/higher/IsroExam.jsx";
 import Barc from "../pages/higher/BarcExam.jsx";
+import Prediction from "../pages/home/Prediction.jsx";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "/dashboard/profile",
         element: <Profile />,
+      },
+      {
+        path:"/Prediction",
+        element:<Prediction/>
       },
    
       {

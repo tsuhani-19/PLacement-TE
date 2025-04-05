@@ -102,6 +102,7 @@ router.patch('/edit-profile', async (req, res) => {
         bio: user.bio,
         profession: user.profession,
         
+        
       }
     });
   } catch (error) {
@@ -130,6 +131,7 @@ router.get('/me', async (req, res) => {
           profession: user.profession,
           skills: user.skills, // Include skills
           cgpa: user.cgpa, // Include CGPA
+          preferedcompany:user.preferedcompany,
       });
   } catch (error) {
       console.error("Error fetching user data:", error);
@@ -153,7 +155,7 @@ router.get('/users/:id', async (req, res) => {
 router.post("/update-profile", async (req, res) => {
   console.log("Request body:", req.body);
 
-  const { userId, Name, skills, cgpa } = req.body;
+  const { userId, Name, skills, cgpa ,preferedcompany} = req.body;
 
   if (!userId) {
       return res.status(400).json({ message: "User ID is required" });
@@ -164,6 +166,7 @@ router.post("/update-profile", async (req, res) => {
       if (!user) {
           return res.status(404).json({ message: "User not found" });
       }
+      if(preferedcompany) user.preferedcompany= preferedcompany;
 
       if (Name) user.Name = Name;
       if (skills) user.skills = skills;
@@ -191,6 +194,7 @@ router.post("/update-profile", async (req, res) => {
               profileImage: user.profileImage,
               bio: user.bio,
               profession: user.profession,
+              preferedcompany:user.preferedcompany,
           },
       });
   } catch (err) {

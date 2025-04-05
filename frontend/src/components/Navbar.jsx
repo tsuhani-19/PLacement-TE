@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useMemo} from "react";
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate } from "react-router-dom";
 import logo from "../assets/slrtceLogo.jpg";  // Update the extension if necessary
@@ -10,22 +10,29 @@ import { logout } from "../redux/features/auth/authSlice";
 
 
 const Navbar = () => {
+ 
   const dispatch = useDispatch();
   const { user } = useSelector((state) => state.auth);
+
   const [logoutUser] = useLogoutUserMutation(); // This should be a destructured array
 
-  const navigate=useNavigate
+  const navigate = useNavigate();
   const [isDropDownOpen, setIsDropDownOpen] = useState(false);
-
-
   const handleDropDownToggle = () => setIsDropDownOpen(!isDropDownOpen);
 
-  const userDropDownMenus = [
-    { label: "Dashboard", path: "/dashboard" },
-    { label: "Profile", path: "/dashboard/profile" },
-   
 
-  ];
+  // Memoized user dropdown menus
+  const userDropDownMenus = useMemo(() => [
+    {
+      label: "Profile",
+      path: "/dashboard/profile",
+    },
+    {
+      label: "Dashboard",
+      path: "/", // Always goes to home
+    }
+    
+  ], [user]);
 
   const adminDropDownMenus = [
     { label: "Admin Dashboard", path: "/admin/dashboard" },

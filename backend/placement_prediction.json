@@ -1,0 +1,2745 @@
+[
+    {
+        "SR NO.":1,
+        "COMPANY_NAME":"CEDCOSS TECHNOLOGIES",
+        "CATEGORY":"IT Services & Consulting",
+        "JOB ROLE":"Associate Software Engineer",
+        "PACKAGE":"4-6LPA",
+        "ELIGIBLE BRANCH":"CS\/IT",
+        "NO.OF REGISTRATION":320.0,
+        "NO.OF PARTICIPANTS":308.0,
+        "CLEANED_SKILLS":[
+            "\nFrontend:\nHTML5",
+            " CSS3",
+            " JavaScript (ES6+).\nReact.js\/Angular (for dynamic UIs).\nBackend:\nNode.js",
+            " Express.js (for server-side logic).\nPHP (optional) \u2013 Useful for CMS like WordPress.\nDatabases:\nSQL (MySQL",
+            " PostgreSQL) & NoSQL (MongoDB).\nDevOps Basics:\nGit",
+            " Docker",
+            " AWS\/Azure fundamentals."
+        ],
+        " SELECTED NO. OF STUDENTS":6.0
+    },
+    {
+        "SR NO.":2,
+        "COMPANY_NAME":"MY PLAN 8",
+        "CATEGORY":"Marketing & Advertising",
+        "JOB ROLE":"Digital Marketing Associate",
+        "PACKAGE":"8 LPA",
+        "ELIGIBLE BRANCH":"IT",
+        "NO.OF REGISTRATION":66.0,
+        "NO.OF PARTICIPANTS":55.0,
+        "CLEANED_SKILLS":[
+            "\nPaid Advertising: Google Ads",
+            " Meta Ads Manager.\nSEO Tools: Ahrefs",
+            " SEMrush",
+            " Google Search Console.\nAnalytics: GA4",
+            " Looker Studio.\nProgramming (Bonus):\nPython (for data scraping\/automation).\nSQL (to analyze campaign data)."
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":3,
+        "COMPANY_NAME":"SECLORE",
+        "CATEGORY":"Cyber Security",
+        "JOB ROLE":"Product Engineer",
+        "PACKAGE":"12 LPA",
+        "ELIGIBLE BRANCH":"ALL BRANCH",
+        "NO.OF REGISTRATION":173.0,
+        "NO.OF PARTICIPANTS":170.0,
+        "CLEANED_SKILLS":[
+            "Programming Languages:\nProficiency in Java\/Python\/C++.",
+            "Operating Systems:Linux\/Windows OSNetworking & Security Protocols:\nKnowledge of TCP\/IP",
+            " SSL\/TLS",
+            " VPNs",
+            " Firewalls",
+            " IDS\/IPS",
+            " PKI",
+            " Cryptography."
+        ],
+        " SELECTED NO. OF STUDENTS":14.0
+    },
+    {
+        "SR NO.":4,
+        "COMPANY_NAME":"NUCSOFT",
+        "CATEGORY":"Product-Based Company",
+        "JOB ROLE":"NET +MVC Developer,Java developer,Outsystems Developer",
+        "PACKAGE":"3.4 LPA,4 LPA",
+        "ELIGIBLE BRANCH":"ALL BRANCH",
+        "NO.OF REGISTRATION":131.0,
+        "NO.OF PARTICIPANTS":101.0,
+        "CLEANED_SKILLS":[
+            "Programming Fundamentals (Data Structures",
+            " Algorithms",
+            " OOPs)\nDatabase Knowledge (SQL \u2013 MySQL\/PostgreSQL",
+            " NoSQL basics)\n Version Control (Git",
+            " GitHub\/GitLab)\n Problem-Solving (Leetcode",
+            " HackerRank \u2013 Medium-level problems)\n Soft Skills (Communication",
+            " Teamwork",
+            " Adaptability)"
+        ],
+        " SELECTED NO. OF STUDENTS":5.0
+    },
+    {
+        "SR NO.":5,
+        "COMPANY_NAME":"LUMENS TECHNOLOGIES",
+        "CATEGORY":"Education & Training",
+        "JOB ROLE":"Software engineer",
+        "PACKAGE":null,
+        "ELIGIBLE BRANCH":"ETRX\/EXTC",
+        "NO.OF REGISTRATION":60.0,
+        "NO.OF PARTICIPANTS":30.0,
+        "CLEANED_SKILLS":[
+            "1. Core Programming & Web Development\n\nLanguages: Python",
+            " Java",
+            " JavaScript (Node.js)\nFrontend: HTML",
+            " CSS",
+            " JavaScript",
+            " React.js\/Angular\nBackend: Django\/Flask (Python)",
+            " Spring Boot (Java)",
+            " Express.js (Node)\nDatabase: SQL (MySQL",
+            " PostgreSQL)",
+            " NoSQL (MongoDB)\n2. Software Engineering Basics\n\nOOPs",
+            " Data Structures & Algorithms\nREST APIs",
+            " Microservices Architecture\nGit & GitHub (Version Control)\n3. EdTech-Specific Knowledge\n\nBasic understanding of LMS (Moodle",
+            " Blackboard)\nE-learning standards (SCORM",
+            " xAPI)\nCloud (AWS\/Azure) for scalable EdTech apps"
+        ],
+        " SELECTED NO. OF STUDENTS":4.0
+    },
+    {
+        "SR NO.":6,
+        "COMPANY_NAME":"SOGOLYTICS",
+        "CATEGORY":"Finance & Investment",
+        "JOB ROLE":"Software Development, Quality Assurance Engineering, Technical Support Engineer",
+        "PACKAGE":"3.5 LPA,7 LPA",
+        "ELIGIBLE BRANCH":"ALL BRANCH",
+        "NO.OF REGISTRATION":133.0,
+        "NO.OF PARTICIPANTS":80.0,
+        "CLEANED_SKILLS":[
+            "1. Software Development (Finance Tech)\n\nProgramming: Java\/Python\/C# (backend)",
+            " JavaScript (React\/Angular for frontend)\nFinance Tech: Basic knowledge of stock markets",
+            " trading systems",
+            " or financial APIs\nDatabases: SQL (MySQL\/Oracle)",
+            " NoSQL (MongoDB)\nTools: Git",
+            " Postman",
+            " Docker\nBonus: Knowledge of fintech frameworks (QuantLib",
+            " Pandas for financial data)\n2. Quality Assurance (QA) Engineering\n\nManual Testing: Test cases",
+            " bug tracking (JIRA)\nAutomation: Selenium",
+            " Appium",
+            " TestNG\nFinance Domain: Understanding of transaction workflows\nTools: Postman (API testing)",
+            " SQL for DB validation\nBonus: ISTQB certification (foundation level)\n3. Technical Support Engineer\n\nTroubleshooting: OS (Linux\/Windows)",
+            " networking basics\nFinance Software: Familiarity with CRM\/trading tools\nScripting: Bash\/Python for automation\nSoft Skills: Customer communication",
+            " ticketing systems (Zendesk)\nBonus: ITIL fundamentals"
+        ],
+        " SELECTED NO. OF STUDENTS":8.0
+    },
+    {
+        "SR NO.":7,
+        "COMPANY_NAME":"MASTEK",
+        "CATEGORY":"Renewable Energy",
+        "JOB ROLE":"Software Engineer Trainee",
+        "PACKAGE":null,
+        "ELIGIBLE BRANCH":"ALL BRANCH",
+        "NO.OF REGISTRATION":150.0,
+        "NO.OF PARTICIPANTS":40.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Python (NumPy\/Pandas)",
+            " Java",
+            " or C#\nWeb Tech: JavaScript + React\/Angular (for energy dashboards)\nCloud\/AI: AWS\/Azure basics",
+            " ML for energy forecasting (bonus)\nData Tools: SQL",
+            " Power BI\/Tableau (for energy analytics)\nIoT (Bonus): Raspberry Pi\/Arduino for smart grid projects\n"
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":8,
+        "COMPANY_NAME":"MEDIA.NET",
+        "CATEGORY":"Construction & Engineering",
+        "JOB ROLE":"Data Analyst,Web Application Developer ",
+        "PACKAGE":"8.13 LPA",
+        "ELIGIBLE BRANCH":"ALL BRANCH",
+        "NO.OF REGISTRATION":185.0,
+        "NO.OF PARTICIPANTS":80.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Python (Pandas",
+            " NumPy)",
+            " SQL (advanced queries)\nData Tools: Power BI\/Tableau",
+            " Excel (pivot tables",
+            " VLOOKUP)\nStatistical Analysis: Regression",
+            " A\/B testing (engineering data)\nDomain Knowledge: Construction metrics (cost\/sq.ft",
+            " project timelines).Frontend\nCore: HTML\/CSS",
+            " JavaScript (ES6+)",
+            " React.js\/Angular\nConstruction Tech: GIS mapping (Leaflet.js)",
+            " 3D visualization (Three.js)\nBackend\nFrameworks: Node.js (Express)",
+            " Django\/Flask\nAPIs: RESTful services",
+            " GraphQL (for BIM data)\nDatabase: PostgreSQL (for geospatial data)",
+            " Firebase"
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":9,
+        "COMPANY_NAME":"JARO EDUCATION",
+        "CATEGORY":"Healthcare & Pharmaceuticals",
+        "JOB ROLE":"Business Development Associate, Career Development Executive ",
+        "PACKAGE":"6.18 LPA",
+        "ELIGIBLE BRANCH":"ALL BRANCH",
+        "NO.OF REGISTRATION":100.0,
+        "NO.OF PARTICIPANTS":40.0,
+        "CLEANED_SKILLS":[
+            "\nMarket Research: Analyzing healthcare trends",
+            " competitor mapping\nSales Outreach: Cold-calling",
+            " email pitching",
+            " LinkedIn prospecting\nCRM Tools: Salesforce\/Zoho (tracking client interactions)\nPresentation: Creating pitches for edtech solutions in pharma\nCareer Counseling: Guiding professionals on upskilling paths\nEdTech Platforms: Navigating online course portals\nData Analysis: Tracking candidate progress (Excel\/Google Sheets)"
+        ],
+        " SELECTED NO. OF STUDENTS":3.0
+    },
+    {
+        "SR NO.":10,
+        "COMPANY_NAME":"ZEUS LEARNING",
+        "CATEGORY":"Real Estate & Property Development",
+        "JOB ROLE":"Software Engineer,Software Quality Engineer ",
+        "PACKAGE":"7.5 LPA",
+        "ELIGIBLE BRANCH":"ALL BRANCH",
+        "NO.OF REGISTRATION":160.0,
+        "NO.OF PARTICIPANTS":160.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming\nPython\/Java (Backend)\nJavaScript + React (Frontend)\nReal Estate Tech\nProperty APIs (Zillow",
+            " Realtor.com)\nGIS\/Mapping (Google Maps API",
+            " Leaflet.js)\nDatabase\nSQL (PostgreSQL\/MySQL)\nNoSQL (MongoDB for listings)"
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":11,
+        "COMPANY_NAME":"VISTAAR",
+        "CATEGORY":"Manufacturing & Industrial Equipment",
+        "JOB ROLE":"Software Engineer, Software Quality Engineer,Data Integration Engineer",
+        "PACKAGE":"4 LPA",
+        "ELIGIBLE BRANCH":"IT\/CS\/EXTC",
+        "NO.OF REGISTRATION":145.0,
+        "NO.OF PARTICIPANTS":90.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming\nPython\/Java (Backend)\nJavaScript + React (Frontend)\nReal Estate Tech\nProperty APIs (Zillow",
+            " Realtor.com)\nGIS\/Mapping (Google Maps API",
+            " Leaflet.js)\nDatabase\nSQL (PostgreSQL\/MySQL)\nNoSQL (MongoDB for listings)"
+        ],
+        " SELECTED NO. OF STUDENTS":3.0
+    },
+    {
+        "SR NO.":12,
+        "COMPANY_NAME":"SYSTENICS SOLUTION",
+        "CATEGORY":"Logistics & Transportation",
+        "JOB ROLE":"Software Engineer\/Developer,Data Analyst,System Analyst, Network Engineer,IT Support Analyst ",
+        "PACKAGE":"3.5 LPA,5 LPA",
+        "ELIGIBLE BRANCH":"IT\/CS\/EXTC\/ECS",
+        "NO.OF REGISTRATION":97.0,
+        "NO.OF PARTICIPANTS":56.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming Basics\nPython\/Java (Software Eng\/Data)\nSQL (All roles)\nJavaScript (For Developers)\nLogistics Domain Knowledge\nGPS\/Fleet APIs",
+            " Warehouse Mgmt (WMS)",
+            " Supply Chain Basics\nTools\nGit",
+            " Docker",
+            " AWS\/Azure (Cloud)\nPower BI\/Tableau (Data Roles)\nWireshark\/Cisco (Network Eng)"
+        ],
+        " SELECTED NO. OF STUDENTS":5.0
+    },
+    {
+        "SR NO.":13,
+        "COMPANY_NAME":"IBM",
+        "CATEGORY":"Telecommunications",
+        "JOB ROLE":"Network Engineer, \nTechnical Support Engineer, Software Developer , Business Transformation Consultant ",
+        "PACKAGE":"3 -6LPA",
+        "ELIGIBLE BRANCH":"IT\/CS\/EXTC\/ECS",
+        "NO.OF REGISTRATION":288.0,
+        "NO.OF PARTICIPANTS":265.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming Basics\nPython\/Java (Software Dev)\nSQL (All roles)\nBash\/Shell Scripting (Network\/Support)\nTelecom Domain Knowledge\n5G",
+            " IoT",
+            " SDN\/NFV basics\nTelecom protocols (TCP\/IP",
+            " SIP",
+            " MPLS)\nTools & Platforms\nGit",
+            " Docker",
+            " Jenkins (DevOps)\nWireshark",
+            " Cisco CLI (Network Eng)\nServiceNow",
+            " JIRA (Support\/Consulting)"
+        ],
+        " SELECTED NO. OF STUDENTS":4.0
+    },
+    {
+        "SR NO.":14,
+        "COMPANY_NAME":"SALES FORCE",
+        "CATEGORY":"Media & Entertainment",
+        "JOB ROLE":"Associate Software Engineer, Associate Technical Consultant, Software Developer ",
+        "PACKAGE":"19 LPA",
+        "ELIGIBLE BRANCH":"IT\/CS\/EXTC\/ECS",
+        "NO.OF REGISTRATION":120.0,
+        "NO.OF PARTICIPANTS":67.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming:\nJava\/Python\/JavaScript (for development roles).\nSQL (queries",
+            " joins",
+            " indexing).\nHTML\/CSS",
+            " React\/Angular (for UI roles).\nREST APIs (integration projects)."
+        ],
+        " SELECTED NO. OF STUDENTS":9.0
+    },
+    {
+        "SR NO.":15,
+        "COMPANY_NAME":"5G R&D DIVISION",
+        "CATEGORY":"Food & Beverages",
+        "JOB ROLE":"Process Engineer, Maintenance Engineer, Quality Assurance Engineer, Product Development Engineer ",
+        "PACKAGE":"4.5 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":54.0,
+        "NO.OF PARTICIPANTS":42.0,
+        "CLEANED_SKILLS":[
+            "\nProcess Optimization: Knowledge of HACCP",
+            " Six Sigma.\nIoT\/5G: Basics of PLC",
+            " SCADA",
+            " and real-time data analytics.\nTools: MATLAB",
+            " Python (for data analysis)."
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":16,
+        "COMPANY_NAME":"ZEECO INDIA",
+        "CATEGORY":"Research & Development",
+        "JOB ROLE":"Testing and Validation, \nResearch and Innovation, Design and Development ",
+        "PACKAGE":"5LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":22.0,
+        "NO.OF PARTICIPANTS":19.0,
+        "CLEANED_SKILLS":[
+            "\nStrong fundamentals in thermodynamics",
+            " fluid mechanics",
+            " heat transfer.\nKnowledge of CAD\/CAE tools (SolidWorks",
+            " ANSYS).\nProgramming (Python",
+            " MATLAB) is a plus."
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":17,
+        "COMPANY_NAME":"PARAS CADD PVT LTD",
+        "CATEGORY":"E-commerce & Online Services",
+        "JOB ROLE":"CAD Design and Product Listings, Ecommerce Operations, Technical support for Online Sales , Digital Content Development ",
+        "PACKAGE":"2.4 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":36.0,
+        "NO.OF PARTICIPANTS":29.0,
+        "CLEANED_SKILLS":[
+            "\nProficiency in CAD tools (AutoCAD",
+            " SolidWorks",
+            " CATIA",
+            " etc.).\nBasic knowledge of e-commerce platforms (Shopify",
+            " WooCommerce",
+            " etc.).\nGood communication skills for customer interactions.\nFamiliarity with digital marketing basics (SEO",
+            " content writing) is a plus."
+        ],
+        " SELECTED NO. OF STUDENTS":4.0
+    },
+    {
+        "SR NO.":18,
+        "COMPANY_NAME":"ALTERA DIGITAL HEALTH",
+        "CATEGORY":"Automotive & Automotive Parts",
+        "JOB ROLE":"Software Development,Data Analytics and AI, Technical Support and Testing ",
+        "PACKAGE":"4 LPA,5 LPA",
+        "ELIGIBLE BRANCH":"All Branches ",
+        "NO.OF REGISTRATION":200.0,
+        "NO.OF PARTICIPANTS":186.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming (Python",
+            " C++",
+            " Java",
+            " or embedded systems).\nKnowledge of IoT",
+            " AI\/ML",
+            " or automotive protocols (CAN bus",
+            " AUTOSAR).\nFamiliarity with healthcare IT systems (if applicable)."
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":19,
+        "COMPANY_NAME":"MEGA PIPES PVT LTD",
+        "CATEGORY":"Financial Services & Solutions",
+        "JOB ROLE":"Data analysis,Cost Estimation and Budgeting, Financial Software Support ",
+        "PACKAGE":"2.4 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":66.0,
+        "NO.OF PARTICIPANTS":52.0,
+        "CLEANED_SKILLS":[
+            "\nBasic accounting\/finance knowledge (Tally",
+            " Excel).\nAnalytical skills for cost optimization.\nUnderstanding of manufacturing processes (if from engineering).\n"
+        ],
+        " SELECTED NO. OF STUDENTS":0.0
+    },
+    {
+        "SR NO.":20,
+        "COMPANY_NAME":"ICICI SECURITIES LTD",
+        "CATEGORY":"Digital Solutions & IT Consulting",
+        "JOB ROLE":"Data analytics, Business Intelligence, Cybersecurity, Digital Marketing,IT Consulting, Client Support,IT and Digital Product Development ",
+        "PACKAGE":"2.5 LPA",
+        "ELIGIBLE BRANCH":"IT\/CS\/EXTC\/ECS",
+        "NO.OF REGISTRATION":166.0,
+        "NO.OF PARTICIPANTS":123.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming (Python",
+            " Java",
+            " SQL",
+            " R).\nWeb tech (HTML\/CSS",
+            " JavaScript",
+            " React).\nData tools (Excel",
+            " Power BI",
+            " Tableau).\nBasic finance knowledge (stocks",
+            " mutual funds",
+            " trading)."
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":21,
+        "COMPANY_NAME":"INTERNATIONAL INDUSTRIAL SPRINGS",
+        "CATEGORY":"Engineering & Technical Services",
+        "JOB ROLE":"Design and Development, Technical Documentation and Client Support, Production and Process Engineering, Maintenance and Troubleshooting ",
+        "PACKAGE":"2.5 LPA,3 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":110.0,
+        "NO.OF PARTICIPANTS":110.0,
+        "CLEANED_SKILLS":[
+            "\nBasic knowledge of CAD software (AutoCAD",
+            " SolidWorks).\nUnderstanding of metallurgy",
+            " strength of materials",
+            " and machining processes.\nFamiliarity with quality tools (Micrometers",
+            " CMM",
+            " Hardness Testers)."
+        ],
+        " SELECTED NO. OF STUDENTS":3.0
+    },
+    {
+        "SR NO.":22,
+        "COMPANY_NAME":"QSPIDERS",
+        "CATEGORY":"Software Development & Solutions",
+        "JOB ROLE":"Software Development, Testing and QA ,DevOps and Cloud Support, Data Engineering and Analytics ",
+        "PACKAGE":"4.2 LPA,4.8 LPA",
+        "ELIGIBLE BRANCH":"ALL BRANCH",
+        "NO.OF REGISTRATION":124.0,
+        "NO.OF PARTICIPANTS":124.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Java\/Python\/C++ (one strong language).\nWeb Tech: HTML\/CSS",
+            " JavaScript (React\/Angular is a plus).\nDatabases: SQL (MySQL",
+            " PostgreSQL).\nTesting Tools (if QA role): Selenium",
+            " JIRA."
+        ],
+        " SELECTED NO. OF STUDENTS":19.0
+    },
+    {
+        "SR NO.":23,
+        "COMPANY_NAME":"EXPOUND TECHNIVO",
+        "CATEGORY":"Analytics & Data Services",
+        "JOB ROLE":"Data Analyst \nand Business intelligence,Data Engineer, Machine learning and AI trainee ,Big Data and Cloud Analytics ",
+        "PACKAGE":"4-6 LPA",
+        "ELIGIBLE BRANCH":"IT\/CS",
+        "NO.OF REGISTRATION":91.0,
+        "NO.OF PARTICIPANTS":90.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Python (Pandas",
+            " NumPy) or R.\nDatabases: SQL (MySQL",
+            " PostgreSQL).\nVisualization: Power BI",
+            " Tableau",
+            " Excel."
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":24,
+        "COMPANY_NAME":"DIGI PLUS",
+        "CATEGORY":"Oil & Gas",
+        "JOB ROLE":"Industrial IoT and Automation Engineer,Data Analytics, Cybersecurity,Cloud and Devops , Software Development ",
+        "PACKAGE":"4 LPA,6 LPA",
+        "ELIGIBLE BRANCH":"IT\/CS\/EXTC",
+        "NO.OF REGISTRATION":128.0,
+        "NO.OF PARTICIPANTS":102.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Python",
+            " Java",
+            " or C++ (embedded\/IoT roles).\nCloud\/DevOps: AWS",
+            " Azure",
+            " Docker (bonus).\nData Tools: SQL",
+            " Pandas",
+            " Power BI.\nDomain Knowledge: Basic oil & gas ops (training provided)."
+        ],
+        " SELECTED NO. OF STUDENTS":4.0
+    },
+    {
+        "SR NO.":25,
+        "COMPANY_NAME":"ALL WAVE AV SYSTEM",
+        "CATEGORY":"Electronics & Electrical Equipment",
+        "JOB ROLE":"AV Systems Design and Integration, Embedded System and Iot ,Electrical and Power Management, Structural and Installation Support, Project Coordination and Sales Engineering ",
+        "PACKAGE":"4 LPA,12 LPA",
+        "ELIGIBLE BRANCH":"MECH\/CIVIL\/EXTC\/ETRX",
+        "NO.OF REGISTRATION":79.0,
+        "NO.OF PARTICIPANTS":70.0,
+        "CLEANED_SKILLS":[
+            "\nEXTC\/ETRX: Embedded systems",
+            " C\/Python",
+            " IoT protocols.\nElectrical: Circuit design",
+            " power systems",
+            " safety norms.\nMECH\/CIVIL: CAD",
+            " structural analysis",
+            " installation planning."
+        ],
+        " SELECTED NO. OF STUDENTS":6.0
+    },
+    {
+        "SR NO.":26,
+        "COMPANY_NAME":"REALINCE",
+        "CATEGORY":"Retail & Consumer Goods",
+        "JOB ROLE":"IoT and Smart Retail System , Supply Chain and Logistics Automation,Retail Tech Support and Maintenance,Data Analytics,Sales and Field Engineering ",
+        "PACKAGE":"5 LPA",
+        "ELIGIBLE BRANCH":"ECS\/EXTC\/CIVIL\/MECH",
+        "NO.OF REGISTRATION":55.0,
+        "NO.OF PARTICIPANTS":47.0,
+        "CLEANED_SKILLS":[
+            "\nEXTC\/ECS: Embedded C",
+            " IoT protocols",
+            " Python for data.\nMECH\/CIVIL: CAD",
+            " basics of automation",
+            " supply chain awareness.\nCommon: Problem-solving",
+            " teamwork",
+            " adaptability to retail environments."
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":27,
+        "COMPANY_NAME":"CODEARRAY",
+        "CATEGORY":"Business Services & Solutions",
+        "JOB ROLE":"Software Development,\nCloud and DevOps ,\nData Engineering and Business Intelligence,IT Consulting and Digital Transformation,QA and Testing",
+        "PACKAGE":"4 LPA to 6LPA",
+        "ELIGIBLE BRANCH":"IT\/CS",
+        "NO.OF REGISTRATION":22.0,
+        "NO.OF PARTICIPANTS":22.0,
+        "CLEANED_SKILLS":[
+            "Programming:Java\/Python\/Javascript \nDatabases:SQL(MySQL",
+            "PostgreSQL)\nBonus:Cloud(AWS\/Azure)",
+            "Devops or RPA tools"
+        ],
+        " SELECTED NO. OF STUDENTS":3.0
+    },
+    {
+        "SR NO.":28,
+        "COMPANY_NAME":"TCS",
+        "CATEGORY":"Infrastructure & Development",
+        "JOB ROLE":"IT infrastructure Management,\nSoftware Development and Maintenance,\nCloud and DevOps Engineering,\nCybersecurity and IT operations,\nDatabase and System Administration \n",
+        "PACKAGE":"3.5 LPA to 4.5 LPA",
+        "ELIGIBLE BRANCH":"ALL BRANCH",
+        "NO.OF REGISTRATION":170.0,
+        "NO.OF PARTICIPANTS":149.0,
+        "CLEANED_SKILLS":[
+            "Programming language:Java\/Python\/C++\nskills:OS and DB fundamentals (Linux",
+            "SQL)",
+            "\nProblem Solving and Teamwork"
+        ],
+        " SELECTED NO. OF STUDENTS":8.0
+    },
+    {
+        "SR NO.":29,
+        "COMPANY_NAME":"ANUMAN",
+        "CATEGORY":"Technology & Software Development",
+        "JOB ROLE":"BIM Engineer,\nConstruction Tech Developer ,\nIoT and Smart Infrastructure,\nData Analyst (Construction Analytics),QA\/Testing for civil engineer software \n",
+        "PACKAGE":"4 LPA to 6LPA ",
+        "ELIGIBLE BRANCH":"CIVIL",
+        "NO.OF REGISTRATION":22.0,
+        "NO.OF PARTICIPANTS":18.0,
+        "CLEANED_SKILLS":[
+            "CAD\/BIM Tools:Autocad",
+            "Revit",
+            " SketchUp.\nProgramming: Python (Pandas",
+            "Numpy) or C#(for IBM APIs.\nData skills: SQL",
+            "Excel",
+            "GIS(QGIS\/ArcGIS)"
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":30,
+        "COMPANY_NAME":"PRAMA HIKEVISION",
+        "CATEGORY":"Security Systems & Services",
+        "JOB ROLE":"Security System Design and Installation,\nEmbedded Hardware and IoT,\nNetwork and Cybersecurity,\nField Engineering and Maintenance, Product Testing and QA",
+        "PACKAGE":"3.5 to 5LPA",
+        "ELIGIBLE BRANCH":"MECH,EXTC,ECS",
+        "NO.OF REGISTRATION":69.0,
+        "NO.OF PARTICIPANTS":66.0,
+        "CLEANED_SKILLS":[
+            "skills:\nEXTC\/ECS: Embedded System",
+            " Networking (TCP\/IP)",
+            "Python\/C.\nMECH:CAD ",
+            " basics of electromechanical systems.\nCommon:Problem solving",
+            " interest in surveillance tech"
+        ],
+        " SELECTED NO. OF STUDENTS":9.0
+    },
+    {
+        "SR NO.":31,
+        "COMPANY_NAME":"REXUS GROUP",
+        "CATEGORY":"Environment & Sustainability",
+        "JOB ROLE":"Renewable energy and System Designs,\nWaste-to-Energy Projects,\nEnvironmental IoT and Automation,\nGreen Manufacturing and ESG Compliance, Green Building and Sustainable Infrastructure, Environmental Impact Assessment,\nWaste Management and Landfill Engineering,Smart Cities \n",
+        "PACKAGE":"3.5 to 6LPA",
+        "ELIGIBLE BRANCH":"Mech, Civil ",
+        "NO.OF REGISTRATION":42.0,
+        "NO.OF PARTICIPANTS":42.0,
+        "CLEANED_SKILLS":[
+            "Software:AutoCAD",
+            "Revit(Civil)\/Solid works",
+            "ANSYS(MECH)",
+            "\nSustainability Tools:PVsyst(solar)",
+            " SimaPro(LCA)",
+            "GIS.\nCertifications:LEED GA ",
+            "GRI ",
+            "ISO 14001"
+        ],
+        " SELECTED NO. OF STUDENTS":5.0
+    },
+    {
+        "SR NO.":32,
+        "COMPANY_NAME":"CMSS",
+        "CATEGORY":"Aerospace & Aviation",
+        "JOB ROLE":"Software Development,Data analytics and AI,\nCybersecurity,\nDevOps and Cloud",
+        "PACKAGE":"4-8LPA",
+        "ELIGIBLE BRANCH":"IT\/CS",
+        "NO.OF REGISTRATION":118.0,
+        "NO.OF PARTICIPANTS":80.0,
+        "CLEANED_SKILLS":[
+            "Programming:Python",
+            "C++",
+            "Java.\nData\/AI:Pandas",
+            "Tensorflow",
+            "SQL",
+            "\nBonus: Knowledge of DO-178C"
+        ],
+        " SELECTED NO. OF STUDENTS":4.0
+    },
+    {
+        "SR NO.":33,
+        "COMPANY_NAME":"AUTOMATION EDGE TECHNOLOGIES",
+        "CATEGORY":"Hospitality & Travel",
+        "JOB ROLE":"Software Development,\nRPA(Robotics Process Automation),\nData Analytics and AI,\nCloud and DevOps,\nCybersecurity.",
+        "PACKAGE":"4 LPA,5 LPA",
+        "ELIGIBLE BRANCH":"CS\/IT",
+        "NO.OF REGISTRATION":116.0,
+        "NO.OF PARTICIPANTS":115.0,
+        "CLEANED_SKILLS":[
+            "Programming:Python",
+            " Java",
+            " Javascript",
+            "\nRPA Tools: UiPath",
+            "Blue Prism (training often provided)",
+            "\nData skills:SQL",
+            " Pandas",
+            "Tableau"
+        ],
+        " SELECTED NO. OF STUDENTS":20.0
+    },
+    {
+        "SR NO.":34,
+        "COMPANY_NAME":"STANDARD GROUP",
+        "CATEGORY":"Government & Public Sector Services",
+        "JOB ROLE":"Public Infrastructure and utilities,\nManufacturing and maintenance,\nEnergy and Renewable Projects,\nQuality control and Inspection ",
+        "PACKAGE":"3 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":218.0,
+        "NO.OF PARTICIPANTS":47.0,
+        "CLEANED_SKILLS":[
+            "CAD Tools: AutoCAD",
+            " Solid works.\nKnowledge:Fluid mechanics",
+            " thermodynamics",
+            " Maintenance.\nCertifications:NDT",
+            "HVAC",
+            "or energy auditing "
+        ],
+        " SELECTED NO. OF STUDENTS":7.0
+    },
+    {
+        "SR NO.":35,
+        "COMPANY_NAME":"IT MNC- BEACON HEALTHCARE SYSTEMS",
+        "CATEGORY":"Professional Services",
+        "JOB ROLE":"Software Development,\nData Engineering and AI,\nCloud and DevOps,\nCybersecurity ",
+        "PACKAGE":"4 LPA,6 LPA",
+        "ELIGIBLE BRANCH":"CS\/IT",
+        "NO.OF REGISTRATION":300.0,
+        "NO.OF PARTICIPANTS":212.0,
+        "CLEANED_SKILLS":[
+            "Programming:Java\/Python\/Javascript.\nDatabases:SQL",
+            "NoSQL.\nBonus: Knowledge of DICOM ",
+            "HIPAA or FHIR APIs"
+        ],
+        " SELECTED NO. OF STUDENTS":16.0
+    },
+    {
+        "SR NO.":36,
+        "COMPANY_NAME":"TECNIK",
+        "CATEGORY":"Non-Profit & NGOs",
+        "JOB ROLE":"Software Development,\nData Analytics,\nCybersecurity,\nCloud and DevOps ",
+        "PACKAGE":"3 LPA,5 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":104.0,
+        "NO.OF PARTICIPANTS":41.0,
+        "CLEANED_SKILLS":[
+
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":37,
+        "COMPANY_NAME":"THE FIRM ARCHITECTURE",
+        "CATEGORY":"Business Process Outsourcing (BPO)",
+        "JOB ROLE":"CAD\/BIM Drafting and Design,\nConstruction Documentation,\n3D modelling and visualization.",
+        "PACKAGE":null,
+        "ELIGIBLE BRANCH":"CIVIL",
+        "NO.OF REGISTRATION":79.0,
+        "NO.OF PARTICIPANTS":39.0,
+        "CLEANED_SKILLS":[
+            "Software: AutoCAD",
+            "Revit\/BIM",
+            "MSExcel",
+            "GIS.\nKnowledge: Building codes Construction Methodologies.\nsoft skills: Communication",
+            " attention to detail"
+        ],
+        " SELECTED NO. OF STUDENTS":10.0
+    },
+    {
+        "SR NO.":38,
+        "COMPANY_NAME":"AMAZON",
+        "CATEGORY":"Financial Consulting & Advisory",
+        "JOB ROLE":"Software Development,\nData Analytics,\nCybersecurity.",
+        "PACKAGE":"3.5 LPA",
+        "ELIGIBLE BRANCH":"CS\/IT",
+        "NO.OF REGISTRATION":400.0,
+        "NO.OF PARTICIPANTS":400.0,
+        "CLEANED_SKILLS":[
+            "Programming Languages:Python\/SQL",
+            "Java.\nFinancial basics: Accounting",
+            " payment systems.\nAWS Knowledge"
+        ],
+        " SELECTED NO. OF STUDENTS":8.0
+    },
+    {
+        "SR NO.":39,
+        "COMPANY_NAME":"SANKEY SOLUTION",
+        "CATEGORY":"Legal & Regulatory Services",
+        "JOB ROLE":"Software Development,\nCybersecurity,\nData Analytics,\nCompliance Automation and RPA",
+        "PACKAGE":"3.5 to 5 LPA",
+        "ELIGIBLE BRANCH":"IT\/CS\/EXTC\/ECS",
+        "NO.OF REGISTRATION":267.0,
+        "NO.OF PARTICIPANTS":221.0,
+        "CLEANED_SKILLS":[
+            "Programming:Python",
+            "SQL",
+            " Javascript.\nBonus:NLP",
+            " Cybersecurity",
+            "or RPA knowledge.\n"
+        ],
+        " SELECTED NO. OF STUDENTS":0.0
+    },
+    {
+        "SR NO.":40,
+        "COMPANY_NAME":"SALMAN PLACEMENT",
+        "CATEGORY":"Artificial Intelligence & Machine Learning",
+        "JOB ROLE":"Predictive Maintenance,\nRobotics and Automation,\nComputer Vision,\nIot and Smart Systems.",
+        "PACKAGE":"4.8 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":21.0,
+        "NO.OF PARTICIPANTS":19.0,
+        "CLEANED_SKILLS":[
+            "Core Mechanical: Thermodynamics",
+            "Fluid mechanics",
+            "CAD.\nAI\/ML skills:Python",
+            "Pandas",
+            "Scikit-learn",
+            "basic neural networks"
+        ],
+        " SELECTED NO. OF STUDENTS":0.0
+    },
+    {
+        "SR NO.":41,
+        "COMPANY_NAME":"ITECH DIGITAL FORENSICS",
+        "CATEGORY":"Biotechnology & Life Sciences",
+        "JOB ROLE":"Medical Device Security and Iot Forensics,\nBiomedical Signal Processing,\nLab Equipment Automation ",
+        "PACKAGE":"2 LPA",
+        "ELIGIBLE BRANCH":"EXTC\/ETRX",
+        "NO.OF REGISTRATION":51.0,
+        "NO.OF PARTICIPANTS":43.0,
+        "CLEANED_SKILLS":[
+            "Embedded Systems:C",
+            " Arduino",
+            "Raspberry Pi.\nCybersecurity Basics: Network Protocols",
+            " encryption.\nData tools:Python ",
+            "MATLAB",
+            " SQL"
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":42,
+        "COMPANY_NAME":"DAVISON INSTRUMENTS PVT LTD",
+        "CATEGORY":"Engineering Consulting",
+        "JOB ROLE":"Mechanical Design and CAD Enginnering,\nProcess Engineering,\nField Engineering and Client System",
+        "PACKAGE":"3.5 -5 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":77.0,
+        "NO.OF PARTICIPANTS":68.0,
+        "CLEANED_SKILLS":[
+            "CAD\/CAE:AutoCAD ",
+            "Solidworks ",
+            "ANYSYS.\nIndustry Knowledge:Piping",
+            "HVAC or instrumentation basics.\n"
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":43,
+        "COMPANY_NAME":"ACCENTURE",
+        "CATEGORY":"Innovation & Startup Ecosystem",
+        "JOB ROLE":"AI\/ML Innovations Labs ,\nCloud and DevOps,\nBlockchain ",
+        "PACKAGE":"4.6 LPA",
+        "ELIGIBLE BRANCH":"CS\/IT",
+        "NO.OF REGISTRATION":155.0,
+        "NO.OF PARTICIPANTS":121.0,
+        "CLEANED_SKILLS":[
+            "Programming: Python\/Java\/Javascript.\nCloud\/DevOps:AWS\/Azure",
+            "Docker.\nInnovative Mindset: Hackathons",
+            "open source contributions"
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":44,
+        "COMPANY_NAME":"GODREJ",
+        "CATEGORY":"Research & Engineering Solutions",
+        "JOB ROLE":"Embedded System and Iot Development,\nIndustrial Automation and Robotics,\nCybersecurity,Data Analytics.",
+        "PACKAGE":"4 LPA",
+        "ELIGIBLE BRANCH":"CS\/IT\/EXTC(ONLY MALE CANDIDADE)",
+        "NO.OF REGISTRATION":70.0,
+        "NO.OF PARTICIPANTS":57.0,
+        "CLEANED_SKILLS":[
+            "CS\/IT:Python",
+            "C++",
+            "SQL",
+            "IoT protocols.\nEXTC : Embedded systems",
+            "VLSI basics",
+            "PCB designs"
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":45,
+        "COMPANY_NAME":"SIMCON DESIGNER AND CONSULTANT PVT LTD",
+        "CATEGORY":"Web & Mobile Development",
+        "JOB ROLE":"CAD\/BIM Web App Development,\nConstruction Management Mobile Apps,\nGIS and Smart City Solutions.",
+        "PACKAGE":"3.5 -5 LPA",
+        "ELIGIBLE BRANCH":"CIVIL",
+        "NO.OF REGISTRATION":11.0,
+        "NO.OF PARTICIPANTS":11.0,
+        "CLEANED_SKILLS":[
+            "Basics of Coding:HTMl\/CSS",
+            " Javascript.\nCAD\/BIM Tools : AutoCAD",
+            " Revit",
+            "Navisworks.\nBonus:GIS ",
+            "App Development "
+        ],
+        " SELECTED NO. OF STUDENTS":0.0
+    },
+    {
+        "SR NO.":46,
+        "COMPANY_NAME":"GLOBE TELESERVICES REQUIRES",
+        "CATEGORY":"Automation & Robotics",
+        "JOB ROLE":"Industrial Robotics and PLC Automation,\nEmbedded System,\nAI-Driven Automation,\nTelecoms Robotics,\nRPA",
+        "PACKAGE":"3.5 LPA,5 LPA",
+        "ELIGIBLE BRANCH":"EXTC",
+        "NO.OF REGISTRATION":3.0,
+        "NO.OF PARTICIPANTS":3.0,
+        "CLEANED_SKILLS":[
+            "Embedded Systems:C",
+            " Arduino",
+            " Raspberry Pi",
+            "\nAutomation Tools:PLC ",
+            "SCADA",
+            "ROS.\nAI\/ML Basics :Python",
+            "OpenCV"
+        ],
+        " SELECTED NO. OF STUDENTS":3.0
+    },
+    {
+        "SR NO.":47,
+        "COMPANY_NAME":"AFICIONADO TECHNOLOGIES",
+        "CATEGORY":"International Trade & Exports",
+        "JOB ROLE":"Technical Export Sales and Business Development, Supply Chains and Logistics Automation,\nProduct Compliance and Documentation,\nField Engineering and Client Support",
+        "PACKAGE":"3 LPA,8 LPA",
+        "ELIGIBLE BRANCH":"ALL BRANCH",
+        "NO.OF REGISTRATION":555.0,
+        "NO.OF PARTICIPANTS":420.0,
+        "CLEANED_SKILLS":[
+            "Technical Knowledge:Basics of Company's export  Products.\nSoft skills : Communication "
+        ],
+        " SELECTED NO. OF STUDENTS":30.0
+    },
+    {
+        "SR NO.":48,
+        "COMPANY_NAME":"SWABHAV TECHLABS",
+        "CATEGORY":"Supply Chain Management",
+        "JOB ROLE":"Supply Chain Automation,\nData Analytics,\nIot and Smart Warehousing ",
+        "PACKAGE":"3.5 LPA,4 LPA",
+        "ELIGIBLE BRANCH":"ALL BRANCH",
+        "NO.OF REGISTRATION":319.0,
+        "NO.OF PARTICIPANTS":309.0,
+        "CLEANED_SKILLS":[
+            "Tech Skills:Python",
+            "SQL",
+            "Excel",
+            "RPA Tools.\nSCM basics: Knowledge of inventory models",
+            "Six Sigma"
+        ],
+        " SELECTED NO. OF STUDENTS":5.0
+    },
+    {
+        "SR NO.":49,
+        "COMPANY_NAME":"GENPACT",
+        "CATEGORY":"Management Consulting",
+        "JOB ROLE":"Business Process Analysis,\nData driven Consulting,\nIt systems Advisory,\nClient Communication ",
+        "PACKAGE":"1.8 LPA",
+        "ELIGIBLE BRANCH":"IT",
+        "NO.OF REGISTRATION":101.0,
+        "NO.OF PARTICIPANTS":97.0,
+        "CLEANED_SKILLS":[
+            "Basic Coding:SQL",
+            "Python.\nTools :Excels ",
+            " Powerpoint",
+            "PowerBI."
+        ],
+        " SELECTED NO. OF STUDENTS":9.0
+    },
+    {
+        "SR NO.":50,
+        "COMPANY_NAME":"HEXAWARE TECHNOLOGIES LTD",
+        "CATEGORY":"Real-Time Systems & Solutions",
+        "JOB ROLE":"Application Development,\nEmbedded and Iot Solutions,\nTesting and Debugging,\nClient Support and consulting,\nCloud based real time system",
+        "PACKAGE":"4 LPA",
+        "ELIGIBLE BRANCH":"IT",
+        "NO.OF REGISTRATION":139.0,
+        "NO.OF PARTICIPANTS":99.0,
+        "CLEANED_SKILLS":[
+            "Programming:C\/C++\/JAVA\/PYTHON.\nCloud\/DevOps:AWS\/Azure",
+            " Docker."
+        ],
+        " SELECTED NO. OF STUDENTS":3.0
+    },
+    {
+        "SR NO.":51,
+        "COMPANY_NAME":"LIBRA VALUERS",
+        "CATEGORY":"Digital Marketing & Social Media",
+        "JOB ROLE":"Graphic Design,\nSocial media Management ",
+        "PACKAGE":"3 -4.5 LPA",
+        "ELIGIBLE BRANCH":"CIVIL",
+        "NO.OF REGISTRATION":44.0,
+        "NO.OF PARTICIPANTS":38.0,
+        "CLEANED_SKILLS":[
+            "Writing\/Editing: Fluent English+regional languages.\nTools: Canva",
+            "Mera Buisness Suite",
+            "Google analytics"
+        ],
+        " SELECTED NO. OF STUDENTS":7.0
+    },
+    {
+        "SR NO.":52,
+        "COMPANY_NAME":"KNEST ALUFROM",
+        "CATEGORY":"Data Management & Solutions",
+        "JOB ROLE":"Construction Data Analysis,\nBIM Data Coordination,\nGIS and site survey Data Management.",
+        "PACKAGE":"2.20 LPA,3 LPA",
+        "ELIGIBLE BRANCH":"CIVIL",
+        "NO.OF REGISTRATION":88.0,
+        "NO.OF PARTICIPANTS":80.0,
+        "CLEANED_SKILLS":[
+            "Excel",
+            "Power BI",
+            "SQL.\nCAD\/BIM Tools: AutoCAD",
+            "Revit."
+        ],
+        " SELECTED NO. OF STUDENTS":16.0
+    },
+    {
+        "SR NO.":53,
+        "COMPANY_NAME":"MP BIRLA GROUP",
+        "CATEGORY":"IoT (Internet of Things)",
+        "JOB ROLE":"Embedded System and Iot System Development,\nWireless Communication and Networking,\nData Analytics and Cloud Computing, Cybersecurity.",
+        "PACKAGE":"3.5 to 6LPA",
+        "ELIGIBLE BRANCH":null,
+        "NO.OF REGISTRATION":null,
+        "NO.OF PARTICIPANTS":null,
+        "CLEANED_SKILLS":[
+            "Programming:Python",
+            "C\/C++.\nIot Platforms: AWS Iot",
+            " Things board.\nElectronics Basics: Sensors",
+            "PCB Design "
+        ],
+        " SELECTED NO. OF STUDENTS":null
+    },
+    {
+        "SR NO.":54,
+        "COMPANY_NAME":"ITD CEMENTATUION INDIA PVT LTD",
+        "CATEGORY":"Blockchain & FinTech",
+        "JOB ROLE":"Supply Chain Transparency,\nData Analytics,\nCybersecurity ",
+        "PACKAGE":"4-6 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":180.0,
+        "NO.OF PARTICIPANTS":150.0,
+        "CLEANED_SKILLS":[
+            "Basics of Blockchain",
+            "\nProgramming: Python",
+            "\nMech knowledge: Cost estimation",
+            " supply chain logistics"
+        ],
+        " SELECTED NO. OF STUDENTS":21.0
+    },
+    {
+        "SR NO.":55,
+        "COMPANY_NAME":"KELP GLOBAL",
+        "CATEGORY":"Education Technology (EdTech)",
+        "JOB ROLE":"Software Development,\nCybersecurity ",
+        "PACKAGE":"5.5 LPA,7 LPA",
+        "ELIGIBLE BRANCH":"IT\/CS\/EXTC",
+        "NO.OF REGISTRATION":234.0,
+        "NO.OF PARTICIPANTS":223.0,
+        "CLEANED_SKILLS":[
+            "Programming:Python\/Java\/Javascript.\nAI\/Ml: basics of NLP",
+            "Computer Vision "
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":56,
+        "COMPANY_NAME":"M\/S JAGDISH PRASAD AGRAWAL",
+        "CATEGORY":"Software as a Service (SaaS)",
+        "JOB ROLE":"SaaS Product Development,\nFrontend Development,\nDatabase and Cloud Management",
+        "PACKAGE":"3.5-6LPA",
+        "ELIGIBLE BRANCH":"All Branch",
+        "NO.OF REGISTRATION":345.0,
+        "NO.OF PARTICIPANTS":311.0,
+        "CLEANED_SKILLS":[
+            "Programming: Python",
+            "Java",
+            " Javascript.\nCloud knowledge.\nSoft skills:Problem Solving"
+        ],
+        " SELECTED NO. OF STUDENTS":0.0
+    },
+    {
+        "SR NO.":57,
+        "COMPANY_NAME":"SOBHA LIMITED",
+        "CATEGORY":"Event Management & Services",
+        "JOB ROLE":"Event Planning and Venue Setup,\nLogistics and site contribution,\nCustomer Engagement and Sales Support.",
+        "PACKAGE":"3-5 LPA",
+        "ELIGIBLE BRANCH":"CIVIL",
+        "NO.OF REGISTRATION":37.0,
+        "NO.OF PARTICIPANTS":37.0,
+        "CLEANED_SKILLS":[
+            "CAD Basics: AutoCAD",
+            " SketchUp.\nSoft skills: Communication",
+            " Teamwork",
+            " creativity."
+        ],
+        " SELECTED NO. OF STUDENTS":0.0
+    },
+    {
+        "SR NO.":58,
+        "COMPANY_NAME":"TATA AUTOCOMP SYSTEM",
+        "CATEGORY":"Cloud Computing & Solutions",
+        "JOB ROLE":"Cybersecurity,\nAI\/ML",
+        "PACKAGE":"4-7 LPA",
+        "ELIGIBLE BRANCH":"CS\/IT",
+        "NO.OF REGISTRATION":212.0,
+        "NO.OF PARTICIPANTS":167.0,
+        "CLEANED_SKILLS":[
+            "Cloud Platforms",
+            " Programming language: Python",
+            "Java or C++",
+            "\nIot\/DevOps: Docker",
+            " Kubernetes "
+        ],
+        " SELECTED NO. OF STUDENTS":45.0
+    },
+    {
+        "SR NO.":59,
+        "COMPANY_NAME":"L & T CONTRUCTION LTD",
+        "CATEGORY":"Marketing Technology",
+        "JOB ROLE":"Digital Marketing,\nCRM and Marketing Automation ",
+        "PACKAGE":"4 to 6 LPA",
+        "ELIGIBLE BRANCH":"Civil\/Mech",
+        "NO.OF REGISTRATION":66.0,
+        "NO.OF PARTICIPANTS":65.0,
+        "CLEANED_SKILLS":[
+            "Digital Tools:SEO",
+            "Google Ads.\nAnalytics:Excel",
+            "Power BI",
+            " Python "
+        ],
+        " SELECTED NO. OF STUDENTS":3.0
+    },
+    {
+        "SR NO.":60,
+        "COMPANY_NAME":"SUZLON GLOBAL SERVICES",
+        "CATEGORY":"Mobile Apps & Services",
+        "JOB ROLE":"Technical Support and Training,\nIot and Field data collection.",
+        "PACKAGE":"3.5 to 5 LPA",
+        "ELIGIBLE BRANCH":"CIVIL",
+        "NO.OF REGISTRATION":23.0,
+        "NO.OF PARTICIPANTS":21.0,
+        "CLEANED_SKILLS":[
+            "CAD: AutoCAD.\nApp Dev Basics:Dart(Flutter)",
+            " Javascript."
+        ],
+        " SELECTED NO. OF STUDENTS":0.0
+    },
+    {
+        "SR NO.":61,
+        "COMPANY_NAME":"SHRI SEVALAL CONTRUCTION PVT LTD",
+        "CATEGORY":"Digital Transformation",
+        "JOB ROLE":"BIM ,\nConstruction Analytics,\nERP\/CRM Integration ",
+        "PACKAGE":"4-6LPA",
+        "ELIGIBLE BRANCH":"CIVIL",
+        "NO.OF REGISTRATION":21.0,
+        "NO.OF PARTICIPANTS":15.0,
+        "CLEANED_SKILLS":[
+            "CAD\/BIM Tools",
+            "\nPython\/SQL",
+            "Iot awareness"
+        ],
+        " SELECTED NO. OF STUDENTS":4.0
+    },
+    {
+        "SR NO.":62,
+        "COMPANY_NAME":"SULZER",
+        "CATEGORY":"Brand Development & Strategy",
+        "JOB ROLE":"Technical Marketing ",
+        "PACKAGE":"2.4 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":94.0,
+        "NO.OF PARTICIPANTS":94.0,
+        "CLEANED_SKILLS":[
+            "CAD"
+        ],
+        " SELECTED NO. OF STUDENTS":13.0
+    },
+    {
+        "SR NO.":63,
+        "COMPANY_NAME":"SCHEMAPHIC SYSTEMS INDIA PVT LTD",
+        "CATEGORY":"Machine Learning & Data Science",
+        "JOB ROLE":"Data Analysis and Visualization,\nMachine Learning and AI",
+        "PACKAGE":"2.5 LPA,3 LPA",
+        "ELIGIBLE BRANCH":"IT\/CS",
+        "NO.OF REGISTRATION":189.0,
+        "NO.OF PARTICIPANTS":189.0,
+        "CLEANED_SKILLS":[
+            "Programming: Python",
+            "SQL.\nML basics: Scikit-learn",
+            " Tensorflow.\nTools: Jupyter Notebooks"
+        ],
+        " SELECTED NO. OF STUDENTS":23.0
+    },
+    {
+        "SR NO.":64,
+        "COMPANY_NAME":"CONSILIO LLC",
+        "CATEGORY":"Technical Education & Training",
+        "JOB ROLE":"Technical Content Development,\nE-learning Platform Management,\nAI\/ML Training ",
+        "PACKAGE":"6 LPA",
+        "ELIGIBLE BRANCH":"IT\/CS\/EXTC\/ECS",
+        "NO.OF REGISTRATION":53.0,
+        "NO.OF PARTICIPANTS":42.0,
+        "CLEANED_SKILLS":[
+            "Programming:Python",
+            "Java",
+            "C\/C++.\nTeaching Aptitude "
+        ],
+        " SELECTED NO. OF STUDENTS":10.0
+    },
+    {
+        "SR NO.":65,
+        "COMPANY_NAME":"EXCELR",
+        "CATEGORY":"ERP Solutions & Services",
+        "JOB ROLE":"ERP Implementation Support,\nData Migration,\nUser training and Documentation,\nTesting and Quality Assurance ",
+        "PACKAGE":"4-5 LPA",
+        "ELIGIBLE BRANCH":"All Branches ",
+        "NO.OF REGISTRATION":322.0,
+        "NO.OF PARTICIPANTS":320.0,
+        "CLEANED_SKILLS":[
+            "Programming:SQL",
+            " Python.\nERP basics.\nAnalytical skills:Excel",
+            "Power BI"
+        ],
+        " SELECTED NO. OF STUDENTS":4.0
+    },
+    {
+        "SR NO.":66,
+        "COMPANY_NAME":"AXIS BANK",
+        "CATEGORY":"Cybersecurity Services",
+        "JOB ROLE":"Network and Application Security,\nSecurity Awareness Training \n",
+        "PACKAGE":"6 LPA",
+        "ELIGIBLE BRANCH":"CS\/IT",
+        "NO.OF REGISTRATION":99.0,
+        "NO.OF PARTICIPANTS":89.0,
+        "CLEANED_SKILLS":[
+            "Cybersecurity Basics: Networking",
+            " \nencryption",
+            "\nkali linux"
+        ],
+        " SELECTED NO. OF STUDENTS":9.0
+    },
+    {
+        "SR NO.":67,
+        "COMPANY_NAME":"JFE ENGINEERING",
+        "CATEGORY":"E-learning & Online Education",
+        "JOB ROLE":"Content Development for engineering courses.\n",
+        "PACKAGE":"4LPA",
+        "ELIGIBLE BRANCH":"All Branches ",
+        "NO.OF REGISTRATION":453.0,
+        "NO.OF PARTICIPANTS":409.0,
+        "CLEANED_SKILLS":[
+            "Technical Knowledge",
+            "\nProgramming language",
+            "\nEdTech Tools"
+        ],
+        " SELECTED NO. OF STUDENTS":29.0
+    },
+    {
+        "SR NO.":68,
+        "COMPANY_NAME":"NIMAP INFOTECH",
+        "CATEGORY":"Research Institutions & Think Tanks",
+        "JOB ROLE":"Data Engineering,\nAI\/ML,\nCybersecurity ",
+        "PACKAGE":"4-6LPA",
+        "ELIGIBLE BRANCH":"IT\/CS\/EXTC\/ECS",
+        "NO.OF REGISTRATION":311.0,
+        "NO.OF PARTICIPANTS":210.0,
+        "CLEANED_SKILLS":[
+            "Programming:Python",
+            "R",
+            "SQL.\nData Tools:Pandas",
+            " Tableau",
+            " Tensorflow."
+        ],
+        " SELECTED NO. OF STUDENTS":17.0
+    },
+    {
+        "SR NO.":69,
+        "COMPANY_NAME":"GLOBAL LOGIC TECHNOLOGIES PVT LTD",
+        "CATEGORY":"Automation & Control Systems",
+        "JOB ROLE":"Embedded Systems for Control,\nIot and Smart Systems Integration,\nRobotics",
+        "PACKAGE":"4.5 to 7 LPA",
+        "ELIGIBLE BRANCH":"IT\/CS\/EXTC\/ECS",
+        "NO.OF REGISTRATION":66.0,
+        "NO.OF PARTICIPANTS":66.0,
+        "CLEANED_SKILLS":[
+            "Programming:C\/C++",
+            " Python.\nTools:PLC IDEs"
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":70,
+        "COMPANY_NAME":"NEXTEP CONTRUCTION",
+        "CATEGORY":"Design & Architecture",
+        "JOB ROLE":"BIM Coordination ",
+        "PACKAGE":"3.5 to 5 LPA",
+        "ELIGIBLE BRANCH":"Civil ",
+        "NO.OF REGISTRATION":22.0,
+        "NO.OF PARTICIPANTS":22.0,
+        "CLEANED_SKILLS":[
+            "CAD\/BIM Tools",
+            "\n Python\/SQL",
+            "Iot awareness."
+        ],
+        " SELECTED NO. OF STUDENTS":0.0
+    },
+    {
+        "SR NO.":71,
+        "COMPANY_NAME":"MEIL",
+        "CATEGORY":"Heavy Machinery & Equipment",
+        "JOB ROLE":" Maintenance & Safety Compliance,\n Heavy Equipment Planning & Deployment",
+        "PACKAGE":"4\u20136 LPA",
+        "ELIGIBLE BRANCH":"CIVIL",
+        "NO.OF REGISTRATION":36.0,
+        "NO.OF PARTICIPANTS":32.0,
+        "CLEANED_SKILLS":[
+            "\nCAD: AutoCAD",
+            " Staad.Pro (for foundation design).\nIndustry Knowledge: Earthmoving equipment",
+            " IS 456\/800 codes.\nSoft Skills: Communication",
+            " problem-solving."
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":72,
+        "COMPANY_NAME":"NLC INDIA LTD",
+        "CATEGORY":"Software Solutions",
+        "JOB ROLE":"Data Analytics,\n IoT & Predictive Maintenance, Cybersecurity\n",
+        "PACKAGE":"3.5\u20136 LPA",
+        "ELIGIBLE BRANCH":"IT\/CS\/EXTC\/ECS",
+        "NO.OF REGISTRATION":271.0,
+        "NO.OF PARTICIPANTS":217.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Python",
+            " C#",
+            " SQL.\nIndustrial Tools: SCADA",
+            " PLC basics (training provided).\nCertifications (Bonus): SAP",
+            " AWS",
+            " cybersecurity.\n"
+        ],
+        " SELECTED NO. OF STUDENTS":12.0
+    },
+    {
+        "SR NO.":73,
+        "COMPANY_NAME":"KAVIN ENGINEERING AND SERVICES PVT LTD",
+        "CATEGORY":"Tech Consulting & Services",
+        "JOB ROLE":"IoT & Smart Infrastructure Solutions,\nTechnical Documentation & Compliance,\nTechnical Documentation & Compliance.",
+        "PACKAGE":"3.5\u20136 LPA",
+        "ELIGIBLE BRANCH":"MECH\/CIVIL",
+        "NO.OF REGISTRATION":55.0,
+        "NO.OF PARTICIPANTS":55.0,
+        "CLEANED_SKILLS":[
+            "\nMECH: CAD (SolidWorks)",
+            " PLC basics",
+            " IoT sensors.\nCIVIL: AutoCAD",
+            " BIM (Revit)",
+            " GIS (QGIS).\nCommon: Excel",
+            " Python (basic)",
+            " communication skills."
+        ],
+        " SELECTED NO. OF STUDENTS":5.0
+    },
+    {
+        "SR NO.":74,
+        "COMPANY_NAME":"NTT DATA",
+        "CATEGORY":"Commercial & Residential Construction",
+        "JOB ROLE":"Data Analytics ,\nCybersecurity for Smart Infrastructure,\n IoT & Smart Building Solutions",
+        "PACKAGE":"4\u20137 LPA",
+        "ELIGIBLE BRANCH":"IT",
+        "NO.OF REGISTRATION":321.0,
+        "NO.OF PARTICIPANTS":320.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Python",
+            " C#",
+            " SQL.\nCloud\/AI: AWS\/Azure",
+            " TensorFlow (bonus)."
+        ],
+        " SELECTED NO. OF STUDENTS":7.0
+    },
+    {
+        "SR NO.":75,
+        "COMPANY_NAME":"KROLL",
+        "CATEGORY":"Oilfield Services & Equipment",
+        "JOB ROLE":"Field Engineering Support,\nOilfield Equipment Design & Testing,\nAutomation & IoT in Oilfields.",
+        "PACKAGE":"4\u20137 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":33.0,
+        "NO.OF PARTICIPANTS":33.0,
+        "CLEANED_SKILLS":[
+            "\nTechnical: CAD",
+            " PLC basics",
+            " data analysis.\nIndustry Knowledge: Drilling processes",
+            " HSE norms."
+        ],
+        " SELECTED NO. OF STUDENTS":3.0
+    },
+    {
+        "SR NO.":76,
+        "COMPANY_NAME":"ABM KNOWLEDGEWARE",
+        "CATEGORY":"Network Services & Infrastructure",
+        "JOB ROLE":"Network Engineering,\nCybersecurity,\nTechnical Support & Troubleshooting.",
+        "PACKAGE":"8 LPA\/10 LPA",
+        "ELIGIBLE BRANCH":"IT\/CS\/EXTC\/ECS",
+        "NO.OF REGISTRATION":400.0,
+        "NO.OF PARTICIPANTS":398.0,
+        "CLEANED_SKILLS":[
+            "\nNetworking: CCNA-level knowledge (OSI model",
+            " TCP\/IP",
+            " VLANs).\nCloud: AWS\/Azure fundamentals.\nProgramming: Python",
+            " Bash scripting."
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":77,
+        "COMPANY_NAME":"SELECT CONTROL",
+        "CATEGORY":"Renewable Resources",
+        "JOB ROLE":"Field Engineering,\nIoT & Smart Monitoring,\n Automation & Control Systems for Renewables",
+        "PACKAGE":"4\u20137 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":99.0,
+        "NO.OF PARTICIPANTS":98.0,
+        "CLEANED_SKILLS":[
+            "\nAutomation Tools: PLC (Siemens\/Allen-Bradley)",
+            " SCADA.\nProgramming: Python",
+            " MATLAB (for simulations).\nRenewables Knowledge: Solar PV\/wind basics (training provided)."
+        ],
+        " SELECTED NO. OF STUDENTS":6.0
+    },
+    {
+        "SR NO.":78,
+        "COMPANY_NAME":"RAGHUVIR DEVELOPERS & BUILDERS",
+        "CATEGORY":"Custom Software Solutions",
+        "JOB ROLE":"Construction Management Software Development,\nData Analytics ,IoT & Smart Building Solutions\n",
+        "PACKAGE":"3.5\u20136 LPA",
+        "ELIGIBLE BRANCH":"All Branches ",
+        "NO.OF REGISTRATION":333.0,
+        "NO.OF PARTICIPANTS":333.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: JavaScript",
+            " Python",
+            " SQL.\nTools: AutoCAD (basic)",
+            " BIM software (bonus).\nDomain Knowledge: Construction processes (training provided)."
+        ],
+        " SELECTED NO. OF STUDENTS":33.0
+    },
+    {
+        "SR NO.":79,
+        "COMPANY_NAME":"TATA PROJECT LTD",
+        "CATEGORY":"Enterprise Resource Planning",
+        "JOB ROLE":"Technical Support & Training,\nProcess Automation (RPA),\n Data Migration & Integration.",
+        "PACKAGE":"4\u20137 LPA",
+        "ELIGIBLE BRANCH":"MECH\/CIVIL",
+        "NO.OF REGISTRATION":212.0,
+        "NO.OF PARTICIPANTS":202.0,
+        "CLEANED_SKILLS":[
+            "\nERP Basics: SAP\/Oracle knowledge (training provided).\nData Tools: Excel (VLOOKUP",
+            " PivotTables)",
+            " SQL.\nDomain Knowledge: Construction workflows (BOM",
+            " procurement).\n"
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":80,
+        "COMPANY_NAME":"CR AUTOMATION PVT LTD",
+        "CATEGORY":"Security & Defense Systems",
+        "JOB ROLE":"Cybersecurity ,\n Technical Support & Field Testing,\nIoT & AI.",
+        "PACKAGE":"4\u20137 LPA",
+        "ELIGIBLE BRANCH":"CS",
+        "NO.OF REGISTRATION":49.0,
+        "NO.OF PARTICIPANTS":33.0,
+        "CLEANED_SKILLS":[
+            "\nEmbedded Systems: C",
+            " Python",
+            " ARM microcontrollers.\nCybersecurity: Network protocols",
+            " encryption.\nDefense Awareness: Basic knowledge of military tech (training provided).\n"
+        ],
+        " SELECTED NO. OF STUDENTS":3.0
+    },
+    {
+        "SR NO.":81,
+        "COMPANY_NAME":"RR PLAST EXTRUSION PVT LTD",
+        "CATEGORY":"Mobile App Development",
+        "JOB ROLE":"IoT-Based Monitoring Apps,\nField Service & Customer Support Apps",
+        "PACKAGE":"2.4 LPA",
+        "ELIGIBLE BRANCH":"MECH\/ETRX\/ECS",
+        "NO.OF REGISTRATION":66.0,
+        "NO.OF PARTICIPANTS":60.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Java\/Kotlin (Android)",
+            " Swift (iOS)",
+            " or Flutter (cross-platform).\nIoT Basics: Bluetooth\/Wi-Fi protocols",
+            " sensor integration.\nCAD\/3D Modeling (Bonus): AutoCAD",
+            " SolidWorks (for AR apps)."
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":82,
+        "COMPANY_NAME":"NIPPEN ELECTRICALS",
+        "CATEGORY":"IT Management & Support",
+        "JOB ROLE":"IT Support Engineer,Network Support Engineer\n",
+        "PACKAGE":"3.5 LPA to 4.5 LPA",
+        "ELIGIBLE BRANCH":"EXTC\/ECS",
+        "NO.OF REGISTRATION":67.0,
+        "NO.OF PARTICIPANTS":54.0,
+        "CLEANED_SKILLS":[
+            "Core Electronics\/Telecom Basics:\nNetworking (TCP\/IP",
+            " DHCP",
+            " DNS).\nOS (Windows Server",
+            " Linux CLI).\n IT Support Tools:\nTicketing systems (ServiceNow",
+            " JIRA).\nRemote desktop tools (TeamViewer",
+            " AnyDesk).\n Networking Certifications (Bonus):\nCCNA",
+            " CompTIA Network+."
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":83,
+        "COMPANY_NAME":"MAERSK",
+        "CATEGORY":"3D Printing & Manufacturing Solutions",
+        "JOB ROLE":"Additive Manufacturing \n(3D Printing) Engineer",
+        "PACKAGE":"6\u20139 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":44.0,
+        "NO.OF PARTICIPANTS":31.0,
+        "CLEANED_SKILLS":[
+            "\n 3D Printing Tech:\nCAD modeling (SolidWorks",
+            " AutoCAD).\nSlicing software (Ultimaker Cura",
+            " PrusaSlicer).\nKnowledge of materials (PLA",
+            " ABS",
+            " metal powders).\n Manufacturing Basics:\nLean manufacturing",
+            " Six Sigma (white belt).\nCNC machining basics (complementary to 3D printing).\n Programming:\nPython (for process automation).\nG-code (for printer calibration)."
+        ],
+        " SELECTED NO. OF STUDENTS":0.0
+    },
+    {
+        "SR NO.":84,
+        "COMPANY_NAME":"KREATE ENERGY",
+        "CATEGORY":"Supply Chain & Logistics Solutions",
+        "JOB ROLE":"Logistics Analyst",
+        "PACKAGE":"4.5 LPA\/5 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":101.0,
+        "NO.OF PARTICIPANTS":100.0,
+        "CLEANED_SKILLS":[
+            "Supply chain basics\nExcel\/Power BI \nERP tools (SAP\/Oracle)"
+        ],
+        " SELECTED NO. OF STUDENTS":7.0
+    },
+    {
+        "SR NO.":85,
+        "COMPANY_NAME":"EPSILON DESIGN CONSULTANCY",
+        "CATEGORY":"Pharmaceutical Development & Manufacturing",
+        "JOB ROLE":" Process Engineer",
+        "PACKAGE":"2.4 LPA",
+        "ELIGIBLE BRANCH":"MECH\/EXTC\/ECS",
+        "NO.OF REGISTRATION":120.0,
+        "NO.OF PARTICIPANTS":119.0,
+        "CLEANED_SKILLS":[
+            "\nBasic chemical\/process engineering principles.\nInstrumentation (pH meters",
+            " HPLC basics).\nExcel\/ERP systems (for data logging)."
+        ],
+        " SELECTED NO. OF STUDENTS":18.0
+    },
+    {
+        "SR NO.":86,
+        "COMPANY_NAME":"GOMA ENGINEERING PVT LTD",
+        "CATEGORY":"GOMA ENGINEERING PVT LTD",
+        "JOB ROLE":"Design\/Production Engineer,\nEmbedded Systems Engineer",
+        "PACKAGE":"2.5\u20134.5 LPA ",
+        "ELIGIBLE BRANCH":"MECH\/EXTC\/ECS",
+        "NO.OF REGISTRATION":43.0,
+        "NO.OF PARTICIPANTS":33.0,
+        "CLEANED_SKILLS":[
+            "MECH: AutoCAD",
+            " CNC basics",
+            " GD&T.\nEXTC\/ECS: Embedded C",
+            " PCB design (Eagle\/KiCad)",
+            " IoT protocols."
+        ],
+        " SELECTED NO. OF STUDENTS":3.0
+    },
+    {
+        "SR NO.":87,
+        "COMPANY_NAME":"BECTOR AUTOMATION RML INDIA PVT LTD",
+        "CATEGORY":"Mobile Payments & E-commerce Solutions",
+        "JOB ROLE":"Automation Engineer ",
+        "PACKAGE":"4.8 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":78.0,
+        "NO.OF PARTICIPANTS":75.0,
+        "CLEANED_SKILLS":[
+            "\nCAD Tools: AutoCAD\/SolidWorks (for mechanical designs).\nMechatronics Basics: PLC",
+            " sensors",
+            " actuators.\nIoT Awareness: RFID",
+            " NFC (used in payment systems).\n"
+        ],
+        " SELECTED NO. OF STUDENTS":15.0
+    },
+    {
+        "SR NO.":88,
+        "COMPANY_NAME":"SEA MARINE INSPECTION SERVICES",
+        "CATEGORY":"Public Relations & Media Services",
+        "JOB ROLE":"PR & Media Coordinator",
+        "PACKAGE":"3\u20135 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":140.0,
+        "NO.OF PARTICIPANTS":140.0,
+        "CLEANED_SKILLS":[
+            "\nBasic knowledge of marine engineering terms (ship systems",
+            " inspections).\nAbility to understand technical reports (e.g.",
+            " corrosion analysis)."
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":89,
+        "COMPANY_NAME":"AMBETRONICS",
+        "CATEGORY":"Risk Management & Security Solutions",
+        "JOB ROLE":"Security Solutions Engineer",
+        "PACKAGE":"3.5\u20135 LPA",
+        "ELIGIBLE BRANCH":"ECS\/EXTC\/MECH",
+        "NO.OF REGISTRATION":190.0,
+        "NO.OF PARTICIPANTS":57.0,
+        "CLEANED_SKILLS":[
+            "\nECS\/EXTC: Embedded C",
+            " IoT protocols (MQTT",
+            " Zigbee)",
+            " PCB design.\nMECH: CAD (SolidWorks)",
+            " material stress analysis.\nCommon: Python (for risk modeling)",
+            " basic cybersecurity."
+        ],
+        " SELECTED NO. OF STUDENTS":19.0
+    },
+    {
+        "SR NO.":90,
+        "COMPANY_NAME":"INDOVANCE",
+        "CATEGORY":"Health & Wellness Services",
+        "JOB ROLE":"Health Facility Support Engineer",
+        "PACKAGE":"3\u20135 LPA",
+        "ELIGIBLE BRANCH":"MECH\/CIVIL",
+        "NO.OF REGISTRATION":33.0,
+        "NO.OF PARTICIPANTS":15.0,
+        "CLEANED_SKILLS":[
+            "\nMECH: Basics of HVAC",
+            " fluid mechanics",
+            " CAD (for equipment layouts).\nCIVIL: AutoCAD\/Revit",
+            " construction codes (IS 456",
+            " NBC)."
+        ],
+        " SELECTED NO. OF STUDENTS":3.0
+    },
+    {
+        "SR NO.":91,
+        "COMPANY_NAME":"AEROBOTT",
+        "CATEGORY":"Consulting Services",
+        "JOB ROLE":"Consulting Analyst",
+        "PACKAGE":"3.6 LPA",
+        "ELIGIBLE BRANCH":"ALL",
+        "NO.OF REGISTRATION":300.0,
+        "NO.OF PARTICIPANTS":300.0,
+        "CLEANED_SKILLS":[
+            "\nExcel\/Google Sheets (PivotTables",
+            " VLOOKUP).\nSQL\/Python (Basic data analysis \u2013 Pandas",
+            " NumPy).\nPowerPoint (Clear",
+            " visual storytelling)."
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":92,
+        "COMPANY_NAME":"SWABHAV VENTURELABS",
+        "CATEGORY":"Consumer Electronics",
+        "JOB ROLE":"Consumer Electronics Engineer",
+        "PACKAGE":"3.8 LPA",
+        "ELIGIBLE BRANCH":"IT\/CS\/EXTC\/ECS",
+        "NO.OF REGISTRATION":43.0,
+        "NO.OF PARTICIPANTS":12.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: C\/C++ (firmware)",
+            " Python (automation).\nEmbedded Systems: Microcontrollers",
+            " sensors (I2C",
+            " SPI).\nIoT Protocols: MQTT",
+            " BLE",
+            " Wi-Fi.\nBasic PCB Design (Eagle\/KiCad \u2013 bonus)."
+        ],
+        " SELECTED NO. OF STUDENTS":0.0
+    },
+    {
+        "SR NO.":93,
+        "COMPANY_NAME":"ARKADE DEVELOPERS",
+        "CATEGORY":"Market Research & Analytics",
+        "JOB ROLE":"Market Research Analys",
+        "PACKAGE":"1.8 LPA",
+        "ELIGIBLE BRANCH":"CIVIL",
+        "NO.OF REGISTRATION":11.0,
+        "NO.OF PARTICIPANTS":8.0,
+        "CLEANED_SKILLS":[
+            "\nExcel (PivotTables",
+            " VLOOKUP) + Power BI\/Tableau (dashboards).\nAutoCAD\/Revit Basics (to understand project layouts)."
+        ],
+        " SELECTED NO. OF STUDENTS":0.0
+    },
+    {
+        "SR NO.":94,
+        "COMPANY_NAME":"EXECUTIVE SHIPPING MANAGEMENT",
+        "CATEGORY":"Energy & Utilities Solutions",
+        "JOB ROLE":"Operations Trainee ",
+        "PACKAGE":"2.4 LPA\/3.6 LPA",
+        "ELIGIBLE BRANCH":"All Branches ",
+        "NO.OF REGISTRATION":9.0,
+        "NO.OF PARTICIPANTS":5.0,
+        "CLEANED_SKILLS":[
+            "\nExcel (PivotTables",
+            " VLOOKUP)\nBasic ERP\/SAP (for logistics tracking)\nAutoCAD (for warehouse layout planning \u2013 bonus)"
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":95,
+        "COMPANY_NAME":"NOZZLE AUTO ASSOCIATION PVT LTD",
+        "CATEGORY":"Branding & Marketing Solutions",
+        "JOB ROLE":"Technical Marketing Associate",
+        "PACKAGE":"3\u20135 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":20.0,
+        "NO.OF PARTICIPANTS":20.0,
+        "CLEANED_SKILLS":[
+            "\nKnowledge of automotive systems (engine parts",
+            " materials).\nCAD basics (to understand product designs).\nCanva\/Photoshop (for creatives).\nGoogle Analytics\/Meta Ads (bonus)."
+        ],
+        " SELECTED NO. OF STUDENTS":9.0
+    },
+    {
+        "SR NO.":96,
+        "COMPANY_NAME":"RADIANCE RENEWABLES PVT LTD",
+        "CATEGORY":"Tech-Driven Solutions",
+        "JOB ROLE":"Renewable Energy Tech Trainee",
+        "PACKAGE":"5 LPA",
+        "ELIGIBLE BRANCH":"All Branches ",
+        "NO.OF REGISTRATION":150.0,
+        "NO.OF PARTICIPANTS":143.0,
+        "CLEANED_SKILLS":[
+            "\nPython (Pandas",
+            " NumPy) for data analysis.\nIoT\/Embedded Systems (Raspberry Pi",
+            " Arduino).\nCAD (for mechanical design \u2013 bonus).\nRenewable energy basics (solar PV",
+            " wind turbines).\nGrid integration challenges."
+        ],
+        " SELECTED NO. OF STUDENTS":10.0
+    },
+    {
+        "SR NO.":97,
+        "COMPANY_NAME":"DATAMATICS BUSINESS SOLUTIONS LTD",
+        "CATEGORY":"Non-Profit Consulting",
+        "JOB ROLE":" Non-Profit Operations Analyst ",
+        "PACKAGE":"2 LPA",
+        "ELIGIBLE BRANCH":"ALL",
+        "NO.OF REGISTRATION":278.0,
+        "NO.OF PARTICIPANTS":221.0,
+        "CLEANED_SKILLS":[
+            "\nExcel (PivotTables",
+            " VLOOKUP) + SQL (queries).\nPower BI\/Tableau (for impact dashboards).\nNon-profit sector basics (grant cycles",
+            " SDGs).\nSocial impact metrics (cost-per-beneficiary)."
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":98,
+        "COMPANY_NAME":"SKF INDIA LIMITED",
+        "CATEGORY":"Software Products",
+        "JOB ROLE":"Software Product Support Trainee",
+        "PACKAGE":"2 LPA",
+        "ELIGIBLE BRANCH":"MECH(ONLY FEMALE)",
+        "NO.OF REGISTRATION":19.0,
+        "NO.OF PARTICIPANTS":11.0,
+        "CLEANED_SKILLS":[
+            "\nExcel (PivotTables",
+            " VLOOKUP) + Basic SQL (queries).\nCAD Basics (AutoCAD\/SolidWorks to understand mechanical components).\nProgramming (Python\/VBA \u2013 advantage)."
+        ],
+        " SELECTED NO. OF STUDENTS":8.0
+    },
+    {
+        "SR NO.":99,
+        "COMPANY_NAME":"GAJANAN ISPAT PVT LTD",
+        "CATEGORY":"Green & Sustainable Solutions",
+        "JOB ROLE":"Sustainability Engineering Trainee",
+        "PACKAGE":"2.4 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":188.0,
+        "NO.OF PARTICIPANTS":101.0,
+        "CLEANED_SKILLS":[
+            "\nEnergy Auditing Basics (ASHRAE Level 1).\nCAD (for eco-friendly plant layouts \u2013 bonus).\nData Tools (Excel",
+            " Power BI)."
+        ],
+        " SELECTED NO. OF STUDENTS":4.0
+    },
+    {
+        "SR NO.":100,
+        "COMPANY_NAME":"SHRIPAL METAL LTD",
+        "CATEGORY":"Home Appliances & Electronics",
+        "JOB ROLE":" Product Design & Development Trainee",
+        "PACKAGE":"3\u20134.5 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":53.0,
+        "NO.OF PARTICIPANTS":49.0,
+        "CLEANED_SKILLS":[
+            "\nCAD Tools: SolidWorks\/AutoCAD (for sheet metal design).\nManufacturing Processes: Stamping",
+            " welding",
+            " GD&T.\nMaterials Knowledge: Metals\/alloys used in appliances."
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":101,
+        "COMPANY_NAME":"HINDALCO INDUSTRIES LTD",
+        "CATEGORY":"Green Building & Architecture",
+        "JOB ROLE":"Green Building Solutions Trainee",
+        "PACKAGE":"3 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":23.0,
+        "NO.OF PARTICIPANTS":223.0,
+        "CLEANED_SKILLS":[
+            "\nHVAC Basics (heat load calculations",
+            " VRF systems).\nCAD Tools (AutoCAD",
+            " Revit \u2013 for mechanical systems).\nSustainability Standards (LEED",
+            " GRIHA",
+            " ECBC)."
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":102,
+        "COMPANY_NAME":"VELOX TELECOMMUNICATION PVT LTD",
+        "CATEGORY":"IT Outsourcing Services",
+        "JOB ROLE":null,
+        "PACKAGE":"2.4 LPA",
+        "ELIGIBLE BRANCH":"ALL",
+        "NO.OF REGISTRATION":180.0,
+        "NO.OF PARTICIPANTS":110.0,
+        "CLEANED_SKILLS":[
+
+        ],
+        " SELECTED NO. OF STUDENTS":0.0
+    },
+    {
+        "SR NO.":103,
+        "COMPANY_NAME":"AURA JEWELS",
+        "CATEGORY":"Custom Development Services",
+        "JOB ROLE":null,
+        "PACKAGE":null,
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":86.0,
+        "NO.OF PARTICIPANTS":43.0,
+        "CLEANED_SKILLS":[
+
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":104,
+        "COMPANY_NAME":"ASHOK ENGINEERING WORKS",
+        "CATEGORY":"Commercial Equipment",
+        "JOB ROLE":"Junior Design & Production Engineer",
+        "PACKAGE":"1.8 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":55.0,
+        "NO.OF PARTICIPANTS":55.0,
+        "CLEANED_SKILLS":[
+            "\nCAD Tools: AutoCAD\/SolidWorks (basic proficiency).\nManufacturing Processes: Casting",
+            " welding",
+            " machining.\nGD&T Basics: Tolerance analysis."
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":105,
+        "COMPANY_NAME":"YMS",
+        "CATEGORY":"Network Security & Infrastructure",
+        "JOB ROLE":"Infrastructure Security Analyst ",
+        "PACKAGE":"3.5\u20135 LPA",
+        "ELIGIBLE BRANCH":"CIVIL",
+        "NO.OF REGISTRATION":77.0,
+        "NO.OF PARTICIPANTS":33.0,
+        "CLEANED_SKILLS":[
+            "\nAutoCAD\/Revit (for security-focused blueprints).\nStructural safety norms (IS codes",
+            " disaster resilience).\nPhysical security principles (perimeter defense",
+            " access logs).\nNetwork infrastructure awareness (cable routing",
+            " UPS systems)."
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":106,
+        "COMPANY_NAME":"QSPIDERS",
+        "CATEGORY":"Online Payment Systems",
+        "JOB ROLE":"Payment Solutions Associate",
+        "PACKAGE":"3.5 LPA,5 LPA",
+        "ELIGIBLE BRANCH":"ALL BRANCH",
+        "NO.OF REGISTRATION":289.0,
+        "NO.OF PARTICIPANTS":202.0,
+        "CLEANED_SKILLS":[
+            "\nWeb Basics: HTTP\/HTTPS",
+            " REST APIs.\nProgramming: Python\/JavaScript (for automation scripts).\nDatabase: SQL (to analyze transaction data)."
+        ],
+        " SELECTED NO. OF STUDENTS":0.0
+    },
+    {
+        "SR NO.":107,
+        "COMPANY_NAME":"EXCELR",
+        "CATEGORY":"Software and Platform Solutions",
+        "JOB ROLE":"Software Solutions Trainee ",
+        "PACKAGE":"3.5\u20136 LPA\n",
+        "ELIGIBLE BRANCH":"ALL BRANCH",
+        "NO.OF REGISTRATION":479.0,
+        "NO.OF PARTICIPANTS":402.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Java\/Python\/C# (any one).\nWeb Basics: HTML\/CSS",
+            " JavaScript (React\/Angular \u2013 bonus).\nDatabase: SQL queries",
+            " normalization.Git",
+            " Postman",
+            " JIRA."
+        ],
+        " SELECTED NO. OF STUDENTS":21.0
+    },
+    {
+        "SR NO.":108,
+        "COMPANY_NAME":"J FOURCE",
+        "CATEGORY":"Product Design & Development",
+        "JOB ROLE":"Product Design & Development Trainee",
+        "PACKAGE":"4\u20137 LPA",
+        "ELIGIBLE BRANCH":"IT,CMPN,ECS",
+        "NO.OF REGISTRATION":400.0,
+        "NO.OF PARTICIPANTS":388.0,
+        "CLEANED_SKILLS":[
+            "\nEmbedded Systems: Arduino\/RPi",
+            " RTOS basics.\nProgramming: C\/C++ (firmware)",
+            " Python (scripting).\nPCB Design: Schematic capture",
+            " layout."
+        ],
+        " SELECTED NO. OF STUDENTS":33.0
+    },
+    {
+        "SR NO.":109,
+        "COMPANY_NAME":"SECLORE",
+        "CATEGORY":"Web Services & Hosting",
+        "JOB ROLE":"Web Services & Hosting Support Engineer",
+        "PACKAGE":" 4\u20137 LPA",
+        "ELIGIBLE BRANCH":"ALL BRANCH",
+        "NO.OF REGISTRATION":338.0,
+        "NO.OF PARTICIPANTS":338.0,
+        "CLEANED_SKILLS":[
+            "\nWeb Technologies: HTTP\/HTTPS",
+            " DNS",
+            " CDN basics.\nOS & Networking: Linux CLI",
+            " TCP\/IP",
+            " SSH.\nCloud Basics: AWS EC2\/S3",
+            " Azure Blob Storage.cPanel\/Plesk",
+            " Wireshark (for diagnostics)",
+            " Git."
+        ],
+        " SELECTED NO. OF STUDENTS":3.0
+    },
+    {
+        "SR NO.":110,
+        "COMPANY_NAME":"CRM",
+        "CATEGORY":"Financial & Legal Services",
+        "JOB ROLE":"Financial\/Legal Tech Analyst ",
+        "PACKAGE":"3.5\u20136 LPA\n",
+        "ELIGIBLE BRANCH":"ALL BRANCH",
+        "NO.OF REGISTRATION":230.0,
+        "NO.OF PARTICIPANTS":212.0,
+        "CLEANED_SKILLS":[
+            "\nExcel\/Google Sheets (PivotTables",
+            " VLOOKUP).\nProgramming (Python for automation",
+            " SQL for queries).\nTools: Power BI",
+            " Salesforce (CRM basics).\nFinancial terms (APR",
+            " ROI",
+            " KYC).\nLegal basics (contract structures",
+            " compliance)."
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":111,
+        "COMPANY_NAME":"STABLE MONEY",
+        "CATEGORY":"Manufacturing Solutions & Engineering",
+        "JOB ROLE":" Manufacturing Solutions Engineer ",
+        "PACKAGE":" 4\u20137 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":150.0,
+        "NO.OF PARTICIPANTS":141.0,
+        "CLEANED_SKILLS":[
+            "\nCAD Tools: AutoCAD\/SolidWorks (for jigs\/fixtures).\nManufacturing Processes: CNC",
+            " welding",
+            " assembly lines.\nData Analysis: Excel\/Minitab (for quality metrics)."
+        ],
+        " SELECTED NO. OF STUDENTS":4.0
+    },
+    {
+        "SR NO.":112,
+        "COMPANY_NAME":"ATLAN",
+        "CATEGORY":"Artificial Intelligence Solutions",
+        "JOB ROLE":"ENGINEERING FELLOWSHIP",
+        "PACKAGE":"5\u20138 LPA",
+        "ELIGIBLE BRANCH":"CS\/IT\/ECS\/EXTC",
+        "NO.OF REGISTRATION":130.0,
+        "NO.OF PARTICIPANTS":130.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Python (Pandas",
+            " NumPy",
+            " scikit-learn).\nML\/DL: Supervised\/unsupervised learning",
+            " neural networks.\nCloud: AWS SageMaker\/GCP Vertex AI (basics)."
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":113,
+        "COMPANY_NAME":"RUBRIK",
+        "CATEGORY":"Robotics & Automation Solutions",
+        "JOB ROLE":"SDE ",
+        "PACKAGE":"7LPA",
+        "ELIGIBLE BRANCH":"CS\/IT",
+        "NO.OF REGISTRATION":300.0,
+        "NO.OF PARTICIPANTS":299.0,
+        "CLEANED_SKILLS":[
+            "C++ (must for robotics) + Python (automation).\nROS\/ROS2 (kinematics",
+            " SLAM basics).\nGazebo (simulation)",
+            " Git",
+            " Docker."
+        ],
+        " SELECTED NO. OF STUDENTS":7.0
+    },
+    {
+        "SR NO.":114,
+        "COMPANY_NAME":"SBI YOUTH FOR INDIA",
+        "CATEGORY":"Digital Solutions Development",
+        "JOB ROLE":"SB",
+        "PACKAGE":"2 LPA",
+        "ELIGIBLE BRANCH":"CS\/IT\/ECS",
+        "NO.OF REGISTRATION":120.0,
+        "NO.OF PARTICIPANTS":57.0,
+        "CLEANED_SKILLS":[
+            "\nBasic Programming: Python\/Java (for app development).\nWeb Development: HTML\/CSS\/JavaScript (for info portals).\nIoT\/AgriTech Basics (bonus)."
+        ],
+        " SELECTED NO. OF STUDENTS":8.0
+    },
+    {
+        "SR NO.":115,
+        "COMPANY_NAME":"NISIKI INDIA PVT LTD",
+        "CATEGORY":"Environmental Solutions & Consulting",
+        "JOB ROLE":"Environmental Solutions Engineer",
+        "PACKAGE":"5 LPA,6 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":49.0,
+        "NO.OF PARTICIPANTS":40.0,
+        "CLEANED_SKILLS":[
+            "\nCAD Tools: AutoCAD\/SolidWorks (for eco-system designs).\nThermodynamics\/Fluid Mechanics: For energy optimization.\nData Tools: Excel\/Power BI (for sustainability reports)."
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":116,
+        "COMPANY_NAME":"TALAKUNCHI NETWORKS PVT LTD",
+        "CATEGORY":"Business Development & Strategy",
+        "JOB ROLE":"Business Development Associate ",
+        "PACKAGE":"3.5\u20136 LPA",
+        "ELIGIBLE BRANCH":"All Branches ",
+        "NO.OF REGISTRATION":230.0,
+        "NO.OF PARTICIPANTS":220.0,
+        "CLEANED_SKILLS":[
+            "\nBasic knowledge of networking concepts (TCP\/IP",
+            " VPNs",
+            " 5G).\nAbility to translate tech specs into business value.\n\nSales Techniques: Cold-calling",
+            " email outreach.\nData Analysis: Excel (PivotTables)",
+            " Power BI (bonus)."
+        ],
+        " SELECTED NO. OF STUDENTS":20.0
+    },
+    {
+        "SR NO.":117,
+        "COMPANY_NAME":"ShieldByte Infosec Pvt. Ltd.",
+        "CATEGORY":"Technical Support Services",
+        "JOB ROLE":"Cybersecurity Technical Support Engineer",
+        "PACKAGE":" 3.5\u20136 LPA",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/EXTC\/ECS",
+        "NO.OF REGISTRATION":190.0,
+        "NO.OF PARTICIPANTS":150.0,
+        "CLEANED_SKILLS":[
+            "\nNetworking: TCP\/IP",
+            " VPNs",
+            " firewalls (CCNA basics helpful).\nOS Knowledge: Windows\/Linux command line.\nSecurity Tools: Wireshark",
+            " Metasploit (basic awareness)."
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":118,
+        "COMPANY_NAME":"Dolanto Engineering Pvt. Ltd.",
+        "CATEGORY":"Corporate Training & Development",
+        "JOB ROLE":"Technical Training Associate",
+        "PACKAGE":"3\u20135 LPA",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/EXTC\/ECS",
+        "NO.OF REGISTRATION":60.0,
+        "NO.OF PARTICIPANTS":55.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Python\/Java\/C++ (for coding workshops).\nDomain Expertise: IoT (EXTC\/ECS)",
+            " cloud computing (IT\/CMPN).\nTools: Jupyter Notebooks",
+            " GitHub",
+            " Wireshark (for networking demos)."
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":119,
+        "COMPANY_NAME":"MEDIA.NET",
+        "CATEGORY":"Development & Real Estate Solutions",
+        "JOB ROLE":"Software Developer ",
+        "PACKAGE":"5\u20139 LPA",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/EXTC\/ECS",
+        "NO.OF REGISTRATION":224.0,
+        "NO.OF PARTICIPANTS":232.0,
+        "CLEANED_SKILLS":[
+            "\nFrontend: JavaScript + React\/Angular.\nBackend: Node.js\/Python\/Django.\nDatabase: SQL (PostgreSQL) + NoSQL (MongoDB).\nData Tools: Python (Pandas)",
+            " Excel",
+            " Power BI.\nDomain Knowledge: Real estate metrics (PSF",
+            " ROI)."
+        ],
+        " SELECTED NO. OF STUDENTS":8.0
+    },
+    {
+        "SR NO.":120,
+        "COMPANY_NAME":"MERKLE",
+        "CATEGORY":"Consulting & Advisory Services",
+        "JOB ROLE":"Business\/Technology Consultant ",
+        "PACKAGE":"6\u201312 LPA ",
+        "ELIGIBLE BRANCH":"CS\/IT ",
+        "NO.OF REGISTRATION":421.0,
+        "NO.OF PARTICIPANTS":401.0,
+        "CLEANED_SKILLS":[
+            "\nSQL (queries",
+            " joins) + Excel (PivotTables",
+            " VLOOKUP).\nPython\/R (Pandas",
+            " NumPy) for data analysis.\nPower BI\/Tableau (dashboards)."
+        ],
+        " SELECTED NO. OF STUDENTS":5.0
+    },
+    {
+        "SR NO.":121,
+        "COMPANY_NAME":"Quantasis",
+        "CATEGORY":"Web and Mobile Services",
+        "JOB ROLE":"Web\/Mobile Developer Intern ",
+        "PACKAGE":" 3\u20136 LPA",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/EXTC\/ECS",
+        "NO.OF REGISTRATION":320.0,
+        "NO.OF PARTICIPANTS":320.0,
+        "CLEANED_SKILLS":[
+            "Frontend: HTML\/CSS",
+            " JavaScript",
+            " React\nBackend: Node.js",
+            " Python",
+            " REST APIs\n Mobile: Flutter\/React Native\nTools: Git",
+            " VS Code",
+            " Postman"
+        ],
+        " SELECTED NO. OF STUDENTS":30.0
+    },
+    {
+        "SR NO.":122,
+        "COMPANY_NAME":"ZEUS LEARNING",
+        "CATEGORY":"Electrical Engineering & Services",
+        "JOB ROLE":"SOFTWARE DEVELOPER",
+        "PACKAGE":"7.75 LPA",
+        "ELIGIBLE BRANCH":"CS\/IT",
+        "NO.OF REGISTRATION":160.0,
+        "NO.OF PARTICIPANTS":160.0,
+        "CLEANED_SKILLS":[
+            "\nCoding: Java\/Python + JavaScript\nWeb: HTML\/CSS",
+            " REST APIs\nCloud: AWS\/Azure\/IBM basics\nDB: SQL + NoSQL basics\nTools: Git",
+            " Docker",
+            " Jenkins"
+        ],
+        " SELECTED NO. OF STUDENTS":4.0
+    },
+    {
+        "SR NO.":123,
+        "COMPANY_NAME":"VISTAR",
+        "CATEGORY":"Market Intelligence & Insights",
+        "JOB ROLE":" Market Research Analyst \/ Business Intelligence Associate",
+        "PACKAGE":"5\u20139 LPA ",
+        "ELIGIBLE BRANCH":"CS\/IT\/ECS",
+        "NO.OF REGISTRATION":321.0,
+        "NO.OF PARTICIPANTS":256.0,
+        "CLEANED_SKILLS":[
+            "\nSQL (queries",
+            " joins) + Python\/R (Pandas",
+            " NumPy).\nPower BI\/Tableau (DAX",
+            " interactive dashboards).\nExcel (PivotTables",
+            " VLOOKUP",
+            " macros)."
+        ],
+        " SELECTED NO. OF STUDENTS":11.0
+    },
+    {
+        "SR NO.":124,
+        "COMPANY_NAME":"KARZA TECHNOLOGIES PVT LTD",
+        "CATEGORY":"Healthcare & Medical Devices",
+        "JOB ROLE":"Data Analyst",
+        "PACKAGE":"5\u20139 LPA",
+        "ELIGIBLE BRANCH":"IT,CMPN,ECS\/EXTC",
+        "NO.OF REGISTRATION":13.0,
+        "NO.OF PARTICIPANTS":12.0,
+        "CLEANED_SKILLS":[
+            "\nData Roles: Python (Pandas)",
+            " SQL",
+            " Power BI\nDevice Roles: C\/C++",
+            " IoT protocols (BLE",
+            " MQTT)"
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":125,
+        "COMPANY_NAME":"SPINNAKERANALYTICS",
+        "CATEGORY":"Data Analytics & Intelligence",
+        "JOB ROLE":"Data Analysis",
+        "PACKAGE":"6\u201312 LPA ",
+        "ELIGIBLE BRANCH":"CS\/IT",
+        "NO.OF REGISTRATION":220.0,
+        "NO.OF PARTICIPANTS":219.0,
+        "CLEANED_SKILLS":[
+            "\nSQL (Complex queries",
+            " joins)\nPython\/R (Pandas",
+            " NumPy",
+            " sklearn)\nPower BI\/Tableau (DAX formulas",
+            " interactive dashboards)\nExcel (PivotTables",
+            " VLOOKUP",
+            " macros)"
+        ],
+        " SELECTED NO. OF STUDENTS":3.0
+    },
+    {
+        "SR NO.":126,
+        "COMPANY_NAME":"DWAO",
+        "CATEGORY":"Robotics & Automation Consulting",
+        "JOB ROLE":"ANALYST TRAINEE",
+        "PACKAGE":"4 LPA,5 LPA",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/ECS\/EXTC",
+        "NO.OF REGISTRATION":320.0,
+        "NO.OF PARTICIPANTS":250.0,
+        "CLEANED_SKILLS":[
+            "\nRobotics Fundamentals: PLC programming",
+            " SCADA systems",
+            " ROS basics\nProgramming Languages: Python (for computer vision\/ML)",
+            " C++\nAutomation Tools: MATLAB",
+            " Simulink",
+            " LabVIEW\nData Analysis: Excel",
+            " Power BI",
+            " basic SQL\nSOFT SKILLS:\nProblem solving abilities\nTeam collaboration skills\nTechnical documentation"
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":127,
+        "COMPANY_NAME":"AMAZON",
+        "CATEGORY":"Cloud-Based Solutions & Services",
+        "JOB ROLE":" Cloud Support Associate ",
+        "PACKAGE":"9.6 LPA",
+        "ELIGIBLE BRANCH":"CS\/IT",
+        "NO.OF REGISTRATION":220.0,
+        "NO.OF PARTICIPANTS":220.0,
+        "CLEANED_SKILLS":[
+            "\nAWS Fundamentals (Compute",
+            " Storage",
+            " Databases).\nProgramming: Python\/Bash (for automation).\nNetworking: TCP\/IP",
+            " DNS",
+            " VPNs.\nCertifications (Bonus):\nAWS Certified Cloud Practitioner (Free for students).\nAWS Solutions Architect \u2013 Associate (Target within 6 months)."
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":128,
+        "COMPANY_NAME":"OSOS",
+        "CATEGORY":"Digital Product Development",
+        "JOB ROLE":"DEVELOPER INTERN",
+        "PACKAGE":"3 LPA",
+        "ELIGIBLE BRANCH":"CS\/IT",
+        "NO.OF REGISTRATION":56.0,
+        "NO.OF PARTICIPANTS":56.0,
+        "CLEANED_SKILLS":[
+            "\n1.Frontend:HTML\/CSS\/JavaScript(React\/Angular)\n2.Backend:Node.js\/Python\/Django\n3.Database:SQL(MySQL\/PostgreSQL)\n4.VersionControl:Git\/GitHub"
+        ],
+        " SELECTED NO. OF STUDENTS":13.0
+    },
+    {
+        "SR NO.":129,
+        "COMPANY_NAME":"BALMER LAWRIE & CO. LTD.",
+        "CATEGORY":"Venture Capital & Startups",
+        "JOB ROLE":"Deal Sourcing & Evaluation,Portfolio Support",
+        "PACKAGE":"21 LPA,25 LPA",
+        "ELIGIBLE BRANCH":"All Branches ",
+        "NO.OF REGISTRATION":22.0,
+        "NO.OF PARTICIPANTS":11.0,
+        "CLEANED_SKILLS":[
+            "\nFinancial Modeling: Excel (advanced)",
+            " Valuation techniques.\nData Analysis: Python\/SQL (for startup metrics analysis).\nMarket Research: Crunchbase",
+            " Tracxn",
+            " industry reports."
+        ],
+        " SELECTED NO. OF STUDENTS":0.0
+    },
+    {
+        "SR NO.":130,
+        "COMPANY_NAME":"JUSPAY",
+        "CATEGORY":"Strategy & Corporate Consulting",
+        "JOB ROLE":"Business Strategy,Data-Driven Consulting",
+        "PACKAGE":"8\u201315 LPA ",
+        "ELIGIBLE BRANCH":"IT\/CS\/EXTC\/ECS",
+        "NO.OF REGISTRATION":400.0,
+        "NO.OF PARTICIPANTS":376.0,
+        "CLEANED_SKILLS":[
+            "\nSQL (advanced queries)",
+            " Excel\/Sheets (pivot tables",
+            " VLOOKUP).\nPython (Pandas",
+            " NumPy) for data analysis.\nUnderstanding of fintech\/payment ecosystems (UPI",
+            " cards",
+            " BNPL).\nCase study practice (McKinsey-style problem-solving)."
+        ],
+        " SELECTED NO. OF STUDENTS":3.0
+    },
+    {
+        "SR NO.":131,
+        "COMPANY_NAME":"MASTERCARD",
+        "CATEGORY":"Energy Efficiency & Solutions",
+        "JOB ROLE":"SOFTWARE ENGINEER",
+        "PACKAGE":"4-7LPA",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/ECS\/EXTC",
+        "NO.OF REGISTRATION":221.0,
+        "NO.OF PARTICIPANTS":197.0,
+        "CLEANED_SKILLS":[
+            "\nCoding: Java\/Python + JavaScript\nWeb: HTML\/CSS",
+            " REST APIs\nCloud: AWS\/Azure\/IBM basics\nDB: SQL + NoSQL basics\nTools: Git",
+            " Docker",
+            " Jenkins"
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":132,
+        "COMPANY_NAME":"IBM",
+        "CATEGORY":"Technology Services & Consulting",
+        "JOB ROLE":"SOFTWARE DEVELOPER",
+        "PACKAGE":"5.5 LPA",
+        "ELIGIBLE BRANCH":"All Branches ",
+        "NO.OF REGISTRATION":300.0,
+        "NO.OF PARTICIPANTS":289.0,
+        "CLEANED_SKILLS":[
+            "\nCoding: Java\/Python + JavaScript\nWeb: HTML\/CSS",
+            " REST APIs\nCloud: AWS\/Azure\/IBM basics\nDB: SQL + NoSQL basics\nTools: Git",
+            " Docker",
+            " Jenkins"
+        ],
+        " SELECTED NO. OF STUDENTS":24.0
+    },
+    {
+        "SR NO.":133,
+        "COMPANY_NAME":"ABSSOLUTE MECHATRONICS",
+        "CATEGORY":"Mobile Communication & Solutions",
+        "JOB ROLE":"MACHINE OPERATOR",
+        "PACKAGE":"3 LPA,3.5 LPA",
+        "ELIGIBLE BRANCH":"MECH",
+        "NO.OF REGISTRATION":19.0,
+        "NO.OF PARTICIPANTS":16.0,
+        "CLEANED_SKILLS":[
+            "\nMachine Operation:\nBasic CNC\/PLC\/SMT machine handling\nPCB assembly & testing\nRF\/wireless communication basics (2G\/4G\/5G components)\nTools & Equipment:\nMultimeter",
+            " oscilloscope (for diagnostics)\nSoldering & desoldering skills\nMS Office (for reports)"
+        ],
+        " SELECTED NO. OF STUDENTS":3.0
+    },
+    {
+        "SR NO.":134,
+        "COMPANY_NAME":"JARO EDUCATION",
+        "CATEGORY":"Data Privacy & Protection",
+        "JOB ROLE":"SALES (CAREER DEVELOPMENT).",
+        "PACKAGE":"8.58 LPA,10.50 LPA",
+        "ELIGIBLE BRANCH":"CS\/IT",
+        "NO.OF REGISTRATION":150.0,
+        "NO.OF PARTICIPANTS":132.0,
+        "CLEANED_SKILLS":[
+            "\nData Privacy Laws: GDPR",
+            " HIPAA",
+            " CCPA basics (certifications like CIPP\/E are a plus).\nCybersecurity Awareness: Encryption",
+            " data breaches",
+            " secure LMS platforms.\nEdTech Understanding: How privacy applies to online education (student data protection).\nConsultative Selling: Pitch privacy training programs to professionals\/enterprises.\nStakeholder Management: Engage HR",
+            " IT teams",
+            " and executives.\nNegotiation & Persuasion: Handle objections and close high-value deals."
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":135,
+        "COMPANY_NAME":"VOLTAGO ELECTRICALS PVT. LTD",
+        "CATEGORY":"Artificial Intelligence Research",
+        "JOB ROLE":" AI Research Engineer",
+        "PACKAGE":"5-8LPA",
+        "ELIGIBLE BRANCH":"EXTC\/ECS",
+        "NO.OF REGISTRATION":200.0,
+        "NO.OF PARTICIPANTS":199.0,
+        "CLEANED_SKILLS":[
+            "\n Core AI\/ML:\nPython (NumPy",
+            " Pandas",
+            " TensorFlow\/PyTorch).\nSupervised\/Unsupervised learning (e.g.",
+            " time-series forecasting for energy data).\n Embedded AI:\nEdge AI (TinyML",
+            " TensorFlow Lite).\nMicrocontrollers (Raspberry Pi",
+            " Arduino) with AI integration.\n EXTC\/ECS Domain Knowledge:\nSignal processing (for sensor data analysis).\nIoT protocols (MQTT",
+            " LoRaWAN)."
+        ],
+        " SELECTED NO. OF STUDENTS":5.0
+    },
+    {
+        "SR NO.":136,
+        "COMPANY_NAME":"CRED",
+        "CATEGORY":"Security Systems & Solutions",
+        "JOB ROLE":"SDE",
+        "PACKAGE":"7LPA",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/ECS",
+        "NO.OF REGISTRATION":102.0,
+        "NO.OF PARTICIPANTS":100.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Python\/Java\/Go (for security tools).\nSecurity Knowledge: Encryption (AES",
+            " RSA)",
+            " JWT",
+            " OAuth.\nCloud\/DevOps: AWS\/GCP",
+            " Docker",
+            " Kubernetes."
+        ],
+        " SELECTED NO. OF STUDENTS":0.0
+    },
+    {
+        "SR NO.":137,
+        "COMPANY_NAME":"ACCENTURE",
+        "CATEGORY":"Data Analytics Services",
+        "JOB ROLE":"SOFTWARE APPLICATION DEVELOPER",
+        "PACKAGE":"4.5 LPA,6.5 LPA",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/ECS",
+        "NO.OF REGISTRATION":201.0,
+        "NO.OF PARTICIPANTS":197.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Python (Pandas",
+            " NumPy)",
+            " SQL (Joins",
+            " Window Functions).\nData Tools: Power BI\/Tableau",
+            " Excel (PivotTables",
+            " VLOOKUP).\nCloud Basics: AWS S3",
+            " EC2",
+            " or Azure Blob Storage.\nVersion Control: Git\/GitHub."
+        ],
+        " SELECTED NO. OF STUDENTS":8.0
+    },
+    {
+        "SR NO.":138,
+        "COMPANY_NAME":"PERCH TECHNOLOGIES PRIVATE LIMITED",
+        "CATEGORY":"Health Tech Solutions",
+        "JOB ROLE":"SOLUTION ARCHITECT",
+        "PACKAGE":"3.6 LPA",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/ECS",
+        "NO.OF REGISTRATION":88.0,
+        "NO.OF PARTICIPANTS":43.0,
+        "CLEANED_SKILLS":[
+            "\n\nProgramming: Python",
+            " Java",
+            " or Node.js (for APIs).\nCloud: AWS\/Azure (EC2",
+            " S3",
+            " Lambda)",
+            " Docker\/Kubernetes.\nHealthcare Tech: FHIR",
+            " HIPAA basics",
+            " EHR systems.\nData Tools: SQL",
+            " Power BI (for health analytics)."
+        ],
+        " SELECTED NO. OF STUDENTS":0.0
+    },
+    {
+        "SR NO.":139,
+        "COMPANY_NAME":"LUMINOUS POWER TECHNOLOGIES",
+        "CATEGORY":"Blockchain Development & Solutions",
+        "JOB ROLE":" IoT + Blockchain Integration\n\n",
+        "PACKAGE":"12 LPA",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/ECS",
+        "NO.OF REGISTRATION":67.0,
+        "NO.OF PARTICIPANTS":36.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Solidity",
+            " JavaScript (Node.js)",
+            " Python.\nBlockchain Tools: Truffle",
+            " Hardhat",
+            " MetaMask.\nCloud\/IoT: AWS IoT",
+            " MQTT",
+            " REST APIs."
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":140,
+        "COMPANY_NAME":"ROBOKART",
+        "CATEGORY":"Cloud & Network Solutions",
+        "JOB ROLE":"Cloud Infrastructure & DevOps,\nTechnical Support & Field Testing",
+        "PACKAGE":"4\u20137 LPA",
+        "ELIGIBLE BRANCH":"EXTC, ECS, CMPN, IT,MECH",
+        "NO.OF REGISTRATION":349.0,
+        "NO.OF PARTICIPANTS":320.0,
+        "CLEANED_SKILLS":[
+            "\nFor EXTC\/ECS\/IT\/CMPN:\n\nProgramming: Python",
+            " C++",
+            " Java.\nNetworking: TCP\/IP",
+            " VLANs",
+            " SDN basics.\nCloud\/IoT: AWS\/Azure",
+            " MQTT",
+            " REST APIs.\nFor MECH Engineers:\n\nCAD\/Simulation: SolidWorks",
+            " ANSYS (for robotic design support).\nMechatronics: PLC",
+            " ROS (Robot Operating System) basics."
+        ],
+        " SELECTED NO. OF STUDENTS":11.0
+    },
+    {
+        "SR NO.":141,
+        "COMPANY_NAME":"RELIANCE INDUSTRIES LIMITED (RIL",
+        "CATEGORY":"Wireless Communication & Services",
+        "JOB ROLE":"GRADUATE ENGINEER\n TRAINEE (GET) PROGRAM",
+        "PACKAGE":"9 LPA",
+        "ELIGIBLE BRANCH":"IT,CMPN,ECS",
+        "NO.OF REGISTRATION":300.0,
+        "NO.OF PARTICIPANTS":289.0,
+        "CLEANED_SKILLS":[
+            "\nWireless Technologies: 5G\/LTE",
+            " OFDMA",
+            " MIMO",
+            " beamforming.\nProgramming: Python (for automation\/AI)",
+            " C++ (for embedded systems).\nCloud & DevOps: Kubernetes",
+            " Docker",
+            " CI\/CD pipelines.\nIoT Protocols: MQTT",
+            " CoAP",
+            " WebSocket.\nTools: Wireshark",
+            " MATLAB",
+            " TensorFlow (for AI\/ML in telecom)."
+        ],
+        " SELECTED NO. OF STUDENTS":14.0
+    },
+    {
+        "SR NO.":142,
+        "COMPANY_NAME":"VIP",
+        "CATEGORY":"Green Energy Solutions",
+        "JOB ROLE":"Software Development,\nTechnical Support & Field Testing",
+        "PACKAGE":"4 LPA",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/ECS",
+        "NO.OF REGISTRATION":180.0,
+        "NO.OF PARTICIPANTS":87.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Python",
+            " JavaScript",
+            " SQL.\nIoT\/Cloud: AWS\/Azure",
+            " MQTT",
+            " REST APIs.\nBonus: Knowledge of solar energy concepts."
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":143,
+        "COMPANY_NAME":"QUALITY KIOSK",
+        "CATEGORY":"Construction Equipment & Engineering",
+        "JOB ROLE":"IoT & Embedded Systems Testing,\nData Analytics ",
+        "PACKAGE":" 3.5\u20136 LPA)",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/ECS",
+        "NO.OF REGISTRATION":199.0,
+        "NO.OF PARTICIPANTS":101.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Python",
+            " Java",
+            " SQL.\nTesting Tools: Selenium",
+            " JMeter",
+            " Postman.\nIoT Basics: Raspberry Pi",
+            " MQTT (bonus)."
+        ],
+        " SELECTED NO. OF STUDENTS":4.0
+    },
+    {
+        "SR NO.":144,
+        "COMPANY_NAME":"MYRIAD SOLUTIONS",
+        "CATEGORY":"Industrial Solutions & Services",
+        "JOB ROLE":"PHP DEVELOPER (JUNIOR )",
+        "PACKAGE":"2.4 LPA",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/ECS",
+        "NO.OF REGISTRATION":120.0,
+        "NO.OF PARTICIPANTS":115.0,
+        "CLEANED_SKILLS":[
+            "\nCore PHP (OOP",
+            " MVC architecture).\nMySQL (queries",
+            " joins",
+            " indexing).\nFrontend Basics (HTML5",
+            " CSS3",
+            " Bootstrap",
+            " JavaScript).\nPHP Frameworks (Laravel\/CodeIgniter \u2013 basic knowledge).\nVersion Control (Git\/GitHub)."
+        ],
+        " SELECTED NO. OF STUDENTS":22.0
+    },
+    {
+        "SR NO.":145,
+        "COMPANY_NAME":"MAXEFF ENGINEERING PVT LTD",
+        "CATEGORY":"Automation & Control Services",
+        "JOB ROLE":"QUALITY ENGINEER",
+        "PACKAGE":"2.64 LPA",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/ECS",
+        "NO.OF REGISTRATION":30.0,
+        "NO.OF PARTICIPANTS":30.0,
+        "CLEANED_SKILLS":[
+            "\nIndustrial Standards: Knowledge of IEC 61131",
+            " ISO 9001.\nTesting Tools: Multimeters",
+            " oscilloscopes",
+            " loop calibrators.\nAutomation Basics: PLC (Siemens\/Allen-Bradley)",
+            " SCADA (Ignition\/WinCC).\nIT\/ECS Relevance:\nC\/Python scripting for test automation.\nSQL for quality data logging."
+        ],
+        " SELECTED NO. OF STUDENTS":13.0
+    },
+    {
+        "SR NO.":146,
+        "COMPANY_NAME":"SUTHERLAND",
+        "CATEGORY":"Business & Technology Consulting",
+        "JOB ROLE":"Software Engineer,\nAssociate Technical Consultant",
+        "PACKAGE":"2.93 LPA",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/ECS",
+        "NO.OF REGISTRATION":189.0,
+        "NO.OF PARTICIPANTS":145.0,
+        "CLEANED_SKILLS":[
+            "Programming: Java",
+            " Python",
+            " C++.\nDatabases: MySQL",
+            " MongoDB",
+            " Oracle.\nSoftware Development: SDLC",
+            " APIs",
+            " system design.\nNetworking: TCP\/IP",
+            " DNS",
+            " VPNs",
+            " CCNA basics."
+        ],
+        " SELECTED NO. OF STUDENTS":5.0
+    },
+    {
+        "SR NO.":147,
+        "COMPANY_NAME":"HPCL",
+        "CATEGORY":"IT Infrastructure Solutions",
+        "JOB ROLE":" Cloud & DevOps,Cybersecurity,\nDatabase & ERP Support",
+        "PACKAGE":"6 LPA",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/ECS",
+        "NO.OF REGISTRATION":102.0,
+        "NO.OF PARTICIPANTS":49.0,
+        "CLEANED_SKILLS":[
+            "\nNetworking: CCNA basics (routing",
+            " VLANs",
+            " VPNs).\nCloud\/DevOps: AWS\/Azure",
+            " Docker",
+            " Ansible.\nCybersecurity: Knowledge of ISO 27001",
+            " NIST frameworks."
+        ],
+        " SELECTED NO. OF STUDENTS":1.0
+    },
+    {
+        "SR NO.":148,
+        "COMPANY_NAME":"QUANTASIS",
+        "CATEGORY":"Commercial IT Services",
+        "JOB ROLE":"Software Development, Cloud & DevOps ,\nData Analytics & Business Intelligence\n\n",
+        "PACKAGE":" 4\u20137 LPA",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/ECS",
+        "NO.OF REGISTRATION":260.0,
+        "NO.OF PARTICIPANTS":239.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Java\/Python\/C# (OOP concepts).\nCloud\/DB: AWS\/Azure fundamentals",
+            " SQL\/NoSQL.\nSoft Skills: Problem-solving",
+            " client communication."
+        ],
+        " SELECTED NO. OF STUDENTS":19.0
+    },
+    {
+        "SR NO.":149,
+        "COMPANY_NAME":"H. K. INFRA ENGINEERING",
+        "CATEGORY":"Product Innovation & Development",
+        "JOB ROLE":"BIM , Prototyping & Field Testing\n\n",
+        "PACKAGE":"4\u20137 LPA",
+        "ELIGIBLE BRANCH":"CIVIL",
+        "NO.OF REGISTRATION":50.0,
+        "NO.OF PARTICIPANTS":40.0,
+        "CLEANED_SKILLS":[
+            "\nCAD\/BIM: AutoCAD",
+            " Revit",
+            " Tekla.\nAnalysis Tools: STAAD.Pro",
+            " ETABS",
+            " MATLAB.\nSustainability Knowledge: LEED\/GRIHA basics."
+        ],
+        " SELECTED NO. OF STUDENTS":10.0
+    },
+    {
+        "SR NO.":150,
+        "COMPANY_NAME":"MICRO TESTING LAB SOLUTION PVT LTD",
+        "CATEGORY":"Electrical Solutions & Services",
+        "JOB ROLE":"TECHNICAL OFFICER\n & ASST TECHNICIAN- LAB TESTING",
+        "PACKAGE":"2.5\u20134 LPA",
+        "ELIGIBLE BRANCH":"Civil",
+        "NO.OF REGISTRATION":40.0,
+        "NO.OF PARTICIPANTS":33.0,
+        "CLEANED_SKILLS":[
+            "\nElectrical Testing Basics: Knowledge of voltage",
+            " current",
+            " resistance measurements.\nLab Equipment: Familiarity with multimeters",
+            " clamp meters",
+            " HV testers.\nStandards: Awareness of IS\/IEC\/NABL norms for material testing.\nCivil-Electrical Interface: Understanding of earthing",
+            " conduit laying",
+            " cable trenching in construction."
+        ],
+        " SELECTED NO. OF STUDENTS":17.0
+    },
+    {
+        "SR NO.":151,
+        "COMPANY_NAME":"FESTO",
+        "CATEGORY":"Financial Services & Consulting",
+        "JOB ROLE":" IoT & Predictive Maintenance ",
+        "PACKAGE":" 4\u20137 LPA",
+        "ELIGIBLE BRANCH":"MECH\/ECS",
+        "NO.OF REGISTRATION":32.0,
+        "NO.OF PARTICIPANTS":32.0,
+        "CLEANED_SKILLS":[
+            "\nTechnical: Basics of pneumatics\/robotics (training provided).\nFinancial Tools: Excel (advanced)",
+            " Power BI",
+            " SQL.\nSoft Skills: Client communication",
+            " problem-solving."
+        ],
+        " SELECTED NO. OF STUDENTS":0.0
+    },
+    {
+        "SR NO.":152,
+        "COMPANY_NAME":"COURSE COMPASS",
+        "CATEGORY":"Digital Media & Advertising",
+        "JOB ROLE":"AI,Social Media Automation & Analytics,\nCybersecurity.",
+        "PACKAGE":"3.5\u20136 LPA",
+        "ELIGIBLE BRANCH":"IT\/CMPN\/ECS\/EXTC",
+        "NO.OF REGISTRATION":73.0,
+        "NO.OF PARTICIPANTS":62.0,
+        "CLEANED_SKILLS":[
+            "\nProgramming: Python",
+            " JavaScript",
+            " SQL.\nAd Tech Tools: Google Ads",
+            " Meta Business Suite.\nCreativity: Copywriting\/design basics (bonus)."
+        ],
+        " SELECTED NO. OF STUDENTS":4.0
+    },
+    {
+        "SR NO.":153,
+        "COMPANY_NAME":"EXICOM TECHNOLOGIES INDIA PVT LTD",
+        "CATEGORY":"Product Engineering & Development",
+        "JOB ROLE":"Thermal & Structural Design,\nPCB & Firmware Developmen,\nIoT & Connectivity",
+        "PACKAGE":"1.92 LPA,3 LPA",
+        "ELIGIBLE BRANCH":"MECH\/EXTC",
+        "NO.OF REGISTRATION":101.0,
+        "NO.OF PARTICIPANTS":96.0,
+        "CLEANED_SKILLS":[
+            "\nMECH: CAD (SolidWorks)",
+            " CFD",
+            " GD&T.\nEXTC: PCB design",
+            " C\/Python",
+            " embedded systems.\nCommon: Problem-solving",
+            " teamwork."
+        ],
+        " SELECTED NO. OF STUDENTS":2.0
+    },
+    {
+        "SR NO.":154,
+        "COMPANY_NAME":"RADHAKRISHNA AGRO INDUSTRIES PVT LTD",
+        "CATEGORY":"Transportation & Logistics Solutions",
+        "JOB ROLE":"IoT-Based Fleet Tracking",
+        "PACKAGE":"3\u20134 LPA",
+        "ELIGIBLE BRANCH":"(MECH\/ECE\/CIVIL",
+        "NO.OF REGISTRATION":54.0,
+        "NO.OF PARTICIPANTS":51.0,
+        "CLEANED_SKILLS":[
+            "\nIoT\/Programming: Python",
+            " Arduino",
+            " SQL.\nLogistics Basics: Fleet management",
+            " perishable goods handling.\nSoft Skills: Communication",
+            " problem-solving."
+        ],
+        " SELECTED NO. OF STUDENTS":3.0
+    }
+]
