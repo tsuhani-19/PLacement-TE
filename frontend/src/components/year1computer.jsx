@@ -1,8 +1,57 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 
-const year1computer = () => {
+const Year1Computer = () => {
+  const [showPanel, setShowPanel] = useState(false);
+  const [internships, setInternships] = useState([]);
+  const [internshipData, setInternshipData] = useState({
+    title: "",
+    company: "",
+    description: "",
+    startDate: "",
+    endDate: "",
+    password: "",
+  });
+
+  // Fetch Internships from Backend
+  useEffect(() => {
+    const fetchInternships = async () => {
+      try {
+        const response = await axios.get("http://localhost:5001/api/internships/");
+        setInternships(response.data.internships);
+      } catch (error) {
+        console.error("Error fetching internships:", error);
+      }
+    };
+
+    fetchInternships();
+  }, []);
+
+  const handleInputChange = (e) => {
+    setInternshipData({ ...internshipData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post("http://localhost:5001/api/internships/add", internshipData);
+
+      if (response.data.success) {
+        setInternships([...internships, response.data.internship]); // Add new internship to UI
+        alert("Internship Added Successfully!");
+        setShowPanel(false);
+        setInternshipData({ title: "", company: "", description: "", startDate: "", endDate: "", password: "" });
+      } else {
+        alert("Failed to add internship: " + response.data.message);
+      }
+    } catch (error) {
+      console.error("Error adding internship:", error);
+      alert("Error adding internship. Please check your input.");
+    }
+  };
+
   return (
-    <div className="bg-gray-50 text-gray-800 font-sans">
+    <div className="bg-gray-50 text-gray-800 font-sans relative">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-500 text-white text-center py-16 px-6 rounded-lg shadow-lg">
         <h1 className="text-4xl font-bold mb-4">Placement Readiness Program</h1>
@@ -13,96 +62,63 @@ const year1computer = () => {
           Get Started
         </button>
       </section>
-      <section className="py-12 px-6 bg-gray-100">
-      <h2 className="text-3xl font-bold text-center mb-8">Internships Oppurtunities </h2>
 
       {/* Internship Opportunities Section */}
-      <div class="flex flex-wrap justify-center gap-6 p-4">
-    <div class="w-80 h-82 p-6 border rounded-xl shadow-lg bg-white">
-        <h2 class="text-2xl font-bold mb-2">Internship Role</h2>
-        <p class="text-gray-600"><strong>About:</strong> Brief description of the internship.</p>
-        <p class="text-gray-600"><strong>Duration:</strong> 3 months</p>
-        <p class="text-gray-600"><strong>Date:</strong> June - August 2025</p>
-        <a href="#" class="mt-9 inline-block px-6 py-3 bg-blue-600 text-white rounded-lg text-center">
-            Register
-        </a>
-    </div>
-
-    <div class="w-80 h-82 p-6 border rounded-xl shadow-lg bg-white">
-        <h2 class="text-2xl font-bold mb-2">Internship Role</h2>
-        <p class="text-gray-600"><strong>About:</strong> Brief description of the internship.</p>
-        <p class="text-gray-600"><strong>Duration:</strong> 6 months</p>
-        <p class="text-gray-600"><strong>Date:</strong> July - December 2025</p>
-        <a href="#" class="mt-9 inline-block px-6 py-3 bg-blue-600 text-white rounded-lg text-center">
-            Register
-        </a>
-    </div>
-
-    <div class="w-80 h-82 p-6 border rounded-xl shadow-lg bg-white">
-        <h2 class="text-2xl font-bold mb-2">Internship Role</h2>
-        <p class="text-gray-600"><strong>About:</strong> Brief description of the internship.</p>
-        <p class="text-gray-600"><strong>Duration:</strong> 2 months</p>
-        <p class="text-gray-600"><strong>Date:</strong> May - June 2025</p>
-        <a href="#" class="mt-9 inline-block px-6 py-3 bg-blue-600 text-white rounded-lg text-center">
-            Register
-        </a>
-    </div>
-</div>
-</section>
-
-
-
-      {/* Skill Development Programs Section */}
       <section className="py-12 px-6 bg-gray-100">
-        <h2 className="text-3xl font-bold text-center mb-8">Skill Development Programs</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-xl mx-auto">
-          {[
-            {
-              title: "Weekly Bootcamps",
-              description: "Join us every Friday for hands-on workshops covering essential technical skills.",
-            },
-            {
-              title: "Soft Skills Workshops",
-              description: "Enhance your communication and interview skills with our expert-led sessions.",
-            },
-            {
-              title: "Technical Certifications",
-              description: "Get certified in trending technologies through our partnership with online platforms.",
-            },
-          ].map((program, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration=300">
-              <h3 className="text-xl font-semibold text-blue-600 mb-2">{program.title}</h3>
-              <p>{program.description}</p>
+        <h2 className="text-3xl font-bold text-center mb-8">Internship Opportunities</h2>
+
+        {/* Centered "Add Internship" Button */}
+        <div className="flex justify-center mb-6">
+          <button 
+            onClick={() => setShowPanel(true)} 
+            className="bg-blue-600 text-white py-2 px-4 rounded-full shadow-md hover:bg-blue-500 transition"
+          >
+            Add Internship
+          </button>
+        </div>
+
+        <div className="flex flex-wrap justify-center gap-6 p-4">
+          {/* Dynamically Display Internships */}
+          {internships.map((internship, index) => (
+            <div key={index} className="w-80 h-82 p-6 border rounded-xl shadow-lg bg-white">
+              <h2 className="text-2xl font-bold mb-2">{internship.title}</h2>
+              <p className="text-gray-600"><strong>Company:</strong> {internship.company}</p>
+              <p className="text-gray-600"><strong>Description:</strong> {internship.description}</p>
+              <p className="text-gray-600"><strong>Start Date:</strong> {new Date(internship.startDate).toLocaleDateString()}</p>
+              <p className="text-gray-600"><strong>End Date:</strong> {new Date(internship.endDate).toLocaleDateString()}</p>
+              <a href="#" className="mt-4 inline-block px-6 py-3 bg-blue-600 text-white rounded-lg text-center">
+                Register
+              </a>
             </div>
           ))}
         </div>
       </section>
 
-      {/* Placement Preparation Section */}
-      <section className="py-12 px-6">
-        <h2 className="text-3xl font-bold text-center mb-8">Your Path to Placement Success</h2>
-        <ol className="list-decimal list-inside space-y-4 max-w-xl mx-auto text-lg">
-          <li><strong>Aptitude Tests:</strong> Prepare with resources provided by the college.</li>
-          <li><strong>Coding Challenges:</strong> Participate in coding competitions to sharpen your skills.</li>
-          <li><strong>Mock Interviews:</strong> Engage in mock interviews to build confidence.</li>
-          <li><strong>Resume Building:</strong> Attend workshops to create impactful resumes.</li>
-        </ol>
-      </section>
-
-      {/* Call-to-Actions Section */}
-      <section className="py-16 px-6 bg-gradient-to-r from-yellow-400 to-yellow-300 text-center rounded-lg shadow-lg mt-10">
-        <h2 className="text-xl font-bold text-blue-800 mb-4">Ready to Take the Next Step?</h2>
-        <p className="text-lg mb-6">
-          Join our programs, explore internships, and prepare for placements with expert guidance.
-        </p>
-        <button className="bg-blue-600 text-white py-3 px-6 rounded-full hover:bg-blue-500 transition duration=300">
-          Start Preparing Now
-        </button>
-      </section>
+      {/* Right-Side Panel (Form for Adding Internship) */}
+      {showPanel && (
+        <div className="fixed right-0 top-0 w-96 h-full bg-white shadow-lg p-6 transition-transform transform translate-x-0">
+          <h2 className="text-2xl font-bold mb-4">Add Internship</h2>
+          <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
+            <input type="text" name="title" placeholder="Internship Title" value={internshipData.title} onChange={handleInputChange} className="p-2 border rounded" required />
+            <input type="text" name="company" placeholder="Company Name" value={internshipData.company} onChange={handleInputChange} className="p-2 border rounded" required />
+            <textarea name="description" placeholder="Internship Description" value={internshipData.description} onChange={handleInputChange} className="p-2 border rounded" required />
+            <input type="date" name="startDate" value={internshipData.startDate} onChange={handleInputChange} className="p-2 border rounded" required />
+            <input type="date" name="endDate" value={internshipData.endDate} onChange={handleInputChange} className="p-2 border rounded" required />
+            <input type="password" name="password" placeholder="Admin Password" value={internshipData.password} onChange={handleInputChange} className="p-2 border rounded" required />
+            
+            <div className="flex justify-between">
+              <button type="submit" className="bg-green-600 text-white py-2 px-4 rounded shadow-md hover:bg-green-500 transition">
+                Submit
+              </button>
+              <button type="button" onClick={() => setShowPanel(false)} className="bg-red-600 text-white py-2 px-4 rounded shadow-md hover:bg-red-500 transition">
+                Cancel
+              </button>
+            </div>
+          </form>
+        </div>
+      )}
     </div>
   );
-    
-  
-}
+};
 
-export default year1computer
+export default Year1Computer;

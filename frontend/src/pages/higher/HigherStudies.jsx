@@ -55,15 +55,7 @@ const HigherStudies = () => {
           Explore Higher Studies Opportunities
         </motion.h1>
 
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1.5 }}
-          className="text-lg text-center text-gray-600 mb-12"
-        >
-          Choose from a range of exams that pave your way for higher studies and
-          rewarding careers.
-        </motion.p>
+    
 
         <motion.div
           initial={{ opacity: 0 }}
