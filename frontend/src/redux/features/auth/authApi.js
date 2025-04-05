@@ -1,11 +1,11 @@
-import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'; // Ensure correct imports
-import { getBaseUrl } from '/src/utils/baseURL.js'; // Ensure you are importing correctly
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import { getBaseUrl } from '/src/utils/baseURL.js';
 
 const authApi = createApi({
   reducerPath: "authApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: `${getBaseUrl()}/api/auth`, // Use the correct base URL
-    credentials: 'include', // This is good for handling cookies
+    baseUrl: `${getBaseUrl()}/api/auth`,
+    credentials: 'include',
   }),
   tagTypes: ["User"],
   endpoints: (builder) => ({
@@ -26,7 +26,7 @@ const authApi = createApi({
     logoutUser: builder.mutation({
       query: () => ({
         url: "/logout",
-        method: "POST"
+        method: "POST",
       }),
     }),
     getUser: builder.query({
@@ -34,28 +34,28 @@ const authApi = createApi({
         url: "/users",
         method: "GET",
       }),
-      refetchOnMount:true,
-      invalidatesTags:["User"],
+      providesTags: ["User"], // Use providesTags for queries
     }),
     deleteUser: builder.mutation({
       query: (userId) => ({
         url: `/users/${userId}`,
         method: "DELETE",
       }),
-      invalidatesTags:["User"],
+      invalidatesTags: ["User"],
     }),
     editProfile: builder.mutation({
       query: (profileData) => ({
-        url: `/edit-profile`,
+        url: "/edit-profile",
         method: "PATCH",
         body: profileData,
       }),
+      invalidatesTags: ["User"], // Add invalidatesTags
     }),
     updateUserProfile: builder.mutation({
       query: (userData) => ({
         url: "/update-profile",
         method: "POST",
-        body: userData,
+        body: userData, // Use userData instead of profileData
       }),
       invalidatesTags: ["User"], 
     }),

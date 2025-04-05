@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
-import { useUpdateUserProfileMutation } from "../../redux/features/auth/authApi";
+import { useUpdateUserProfileMutation ,useGetUserQuery} from "../../redux/features/auth/authApi";
 import avatarImg from "../../assets/avatarImg.png";
 
 
 const Profile = () => {
     const { user } = useSelector((state) => state.auth);
-    const [updateProfile] = useUpdateUserProfileMutation();
+    const [updateUserProfile] = useUpdateUserProfileMutation();
+    const { data: userData, refetch } = useGetUserQuery();
 
     const [formData, setFormData] = useState({
         Name: "",
@@ -23,22 +24,40 @@ const Profile = () => {
     const [imagePreview, setImagePreview] = useState(null);
 
     useEffect(() => {
-        if (user && user.user) {
-          console.log("User object:", user.user); 
-            setFormData({
-                Name: user.user.Name || "",
-                email: user.user.email || "",
-                skills: user.user.skills || "",
-                cgpa: user.user.cgpa || "",
-                Year: user.user.Year || "",
-                Branch: user.user.Branch || "",
-                role: user.user.role || "",
-                profileImageUrl: user.user.profileImageUrl || "",
-                userId: user.user.id || "",
+        const fetchUserProfile = async () => {
+            try {
+                const response = await fetch(`http://localhost:5001/api/auth/users/${user.user._id}`, {
+                    method: "GET",
+                    credentials: "include",
+                });
 
-            });
-        }
+                if (!response.ok) {
+                    throw new Error("Failed to fetch user profile");
+                }
+
+                const userData = await response.json();
+                console.log("Fetched user profile:", userData);
+
+                setFormData({
+                    ...formData,
+                    Name: userData.Name || "",
+                    email: userData.email || "",
+                    skills: userData.skills || "",
+                    cgpa: userData.cgpa || "",
+                    Year: userData.Year || "",
+                    Branch: userData.Branch || "",
+                    role: userData.role || "",
+                    profileImageUrl: userData.profileImage || "",
+                    userId: user.user._id || "",
+                });
+            } catch (err) {
+                console.error("Error fetching user profile:", err);
+            }
+        };
+
+        fetchUserProfile();
     }, [user]);
+
 
     const handleChange = (e) => {
         setFormData({
@@ -62,40 +81,61 @@ const Profile = () => {
         }
     };
     const handleSubmit = async (e) => {
-      e.preventDefault(); // Prevent page refresh on form submit
+        e.preventDefault();
     
-      // Destructure formData to create profileData
-      const { Name, email, skills, cgpa, Year } = formData;
-      
-      const profileData = {
-        name: Name,
-        email,
-        skills,
-        cgpa,
-        year: Year, // Ensure correct mapping
-      };
+        const { Name, skills, cgpa, userId } = formData;
     
-      try {
-        const response = await fetch("http://localhost:5001/api/auth/update-profile", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(profileData), // Send profile data as JSON
-          credentials: "include", // Include cookies if using authentication
-        });
-    
-        if (response.ok) {
-          console.log("Profile updated successfully!");
-        } else {
-          console.error("Failed to update profile");
+        if (!userId) {
+            alert("User ID is missing. Please log in again.");
+            return;
         }
-      } catch (err) {
-        console.error("Error occurred: ", err);
-      }
+    
+        const profileData = {
+            userId,
+            Name,
+            skills,
+            cgpa,
+        };
+    
+        console.log("Sending profile data:", profileData);
+    
+        try {
+            // Step 1: Update the profile using the mutation
+            const updatedUser = await updateUserProfile(profileData).unwrap();
+            console.log("Profile updated successfully!", updatedUser);
+    
+            // Step 2: Fetch the updated profile data
+            const fetchResponse = await fetch(`http://localhost:5001/api/auth/users/${userId}`, {
+                method: "GET",
+                credentials: "include",
+            });
+    
+            if (!fetchResponse.ok) {
+                throw new Error("Failed to fetch updated profile");
+            }
+    
+            const userData = await fetchResponse.json();
+            console.log("Fetched updated profile:", userData);
+    
+            // Step 3: Update the local state with the new data
+            setFormData({
+                ...formData,
+                Name: userData.Name || formData.Name,
+                email: userData.email || formData.email,
+                skills: userData.skills || formData.skills,
+                cgpa: userData.cgpa || formData.cgpa,
+                Year: userData.Year || formData.Year,
+                Branch: userData.Branch || formData.Branch,
+                role: userData.role || formData.role,
+                profileImageUrl: userData.profileImage || formData.profileImageUrl,
+            });
+    
+            alert("Profile updated successfully!");
+        } catch (err) {
+            console.error("Error occurred: ", err);
+            alert(err.message || "An error occurred while updating the profile");
+        }
     };
-    
-    
   
   const validateForm = () => {
     if (!formData.Name.trim()) {

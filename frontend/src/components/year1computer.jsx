@@ -56,7 +56,7 @@ const Year1Computer = () => {
       <section className="bg-gradient-to-r from-blue-600 to-blue-500 text-white text-center py-16 px-6 rounded-lg shadow-lg">
         <h1 className="text-4xl font-bold mb-4">Placement Readiness Program</h1>
         <p className="text-lg max-w-2xl mx-auto mb-6">
-          Empowering 3rd Year Engineering Students with skills, internships, and resources for a successful career.
+          Empowering 1st Year Engineering Students with skills, internships, and resources for a successful career.
         </p>
         <button className="mt-6 bg-yellow-400 text-blue-800 font-semibold py-3 px-6 rounded-full hover:bg-yellow-300 transition duration-300">
           Get Started
