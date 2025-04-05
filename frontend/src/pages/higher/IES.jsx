@@ -16,7 +16,7 @@ const iesMaterials = [
 
 const IES= () => {
   return (
-    <div className="bg-gradient-to-r from-emerald-800 to-green-900 min-h-screen p-8">
+    <div className="bg-white min-h-screen py-10">
       <div className="container mx-auto px-4">
         <h1 className="text-5xl font-extrabold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-500">
           IES Exam Preparation

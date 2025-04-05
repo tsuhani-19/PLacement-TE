@@ -1,21 +1,3 @@
-nav {
-  max-width: 1400px;
-  margin: auto;
-  padding: 2rem 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav__links {
-  margin-left: 50px;
-  flex: 1;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-
-}
 :root {
   --primary-color: #ed3849;
   --primary-color-dark: #d23141;
@@ -24,76 +6,102 @@ nav {
   --text-light: #64748b;
   --extra-light: #f8fafc;
   --white: #ffffff;
-  --max-width-1400: 1400px;
-  --max-width-1200: 1200px;
-  --max-width-900: 900px;
+  --max-width: 1400px;
   --header-font: "Playfair Display", serif;
 }
 
-
 body {
   font-family: "Poppins", sans-serif;
-}
-.link a {
-  font-weight: 500;
-  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
 }
 
-.link a:hover {
-  color: var(--primary-color);
+/* Navbar */
+nav {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem 1rem; /* Reduced padding */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1000;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .nav__logo a {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 800;
   font-family: var(--header-font);
   color: var(--text-dark);
-  
+  text-decoration: none;
 }
 
 .nav__logo a span {
   color: var(--primary-color);
 }
 
-.nav__icons {
-  flex: 1;
+.nav__links {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 2rem;
+  list-style: none;
+  gap: 1.5rem;
 }
 
-.nav__icons span a {
-  font-size: 1.25rem;
+.nav__links li a {
+  font-weight: 500;
   color: var(--text-dark);
+  text-decoration: none;
 }
 
-.nav__icons span a:hover {
+.nav__links li a:hover {
   color: var(--primary-color);
 }
-.section__container {
-  max-width: var(--max-width-1400);
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* Content */
+.content {
+  padding-top: 60px; /* Adjusted for navbar */
+}
+
+/* Admin Login Box */
+.admin-login-container {
+  max-width: 350px; /* Reduced width */
   margin: auto;
-  padding: 5rem 1rem;
-}
-.section__header {
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  font-weight: 800;
-  font-family: var(--header-font);
-  color: var(--text-dark);
+  padding: 1.5rem;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
+  min-height: auto;
+  margin-top: 2rem;
 }
 
-.section__subheader {
-  max-width: 500px;
-  margin: auto;
-  color: var(--text-light);
-  text-align: center;
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .nav__links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: white;
+    padding: 1rem 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav__links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
 }
-
-
-.html{
-  scroll-behavior: smooth;
-}
-

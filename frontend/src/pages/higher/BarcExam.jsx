@@ -16,7 +16,7 @@ const barcMaterials = [
 
 const BarcExam = () => {
   return (
-    <div className="bg-gradient-to-r from-blue-800 to-indigo-900 min-h-screen p-8">
+    <div className="bg-white min-h-screen py-10">
       <div className="container mx-auto px-4">
         <h1 className="text-5xl font-extrabold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-blue-500">
           BARC Exam Preparation
