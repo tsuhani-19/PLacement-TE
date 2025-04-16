@@ -53,8 +53,8 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed-nav-bar w-nav">
-      <nav className="max-w-screen-2xl mx-auto px-2 flex justify-between items-center">
+    <header className="fixed-nav-bar w-full">
+      <nav className="w-full mx-auto px-2 flex justify-between items-center">
         <div className="nav__logo pl-2">
           <Link to="/">
             <img src={logo} alt="Logo" className="h-10 w-auto" />

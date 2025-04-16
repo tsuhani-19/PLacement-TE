@@ -35,9 +35,9 @@ const Login = () => {
         if (user.Year === "1" && user.Branch.toLowerCase() === "computer") {
             console.log("Navigating to: /year1computer");
             navigate("/year1computer");
-        } else if (user.Year === "2" && user.Branch.toLowerCase() === "computer") {
-            console.log("Navigating to: /year2-computer");
-            navigate("/year2-computer");
+        } else if (user.Year === "3" && user.Branch.toLowerCase() === "mechanical") {
+            console.log("Navigating to: /year3mechanical");
+            navigate("/year3mechanical");
         } else if (user.Year === "2" && user.Branch.toLowerCase() === "electronics") {
             console.log("Navigating to: /year2electronics");
             navigate("/year2electronics");

@@ -6,6 +6,7 @@ import Login from "../components/Login";
 import Register from "../components/Register";
 import Profile from "../pages/home/Profile"; 
 import Year1ComputerPage from "../components/year1computer";
+import Year3Mechanical from "../components/year3mechanical.jsx";
 import ResumeBuilding from "../pages/Resume";
 import HigherStudies from "../pages/higher/HigherStudies.jsx";
 import Gate from "../pages/higher/Gate.jsx";
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path: "/year1computer",
         element: <Year1ComputerPage />,
+      },
+      {
+        path:"/year3mechanical",
+        element:<Year3Mechanical />,
       },
       {
         path: "/Resume",

@@ -1,10 +1,10 @@
 const express = require("express");
+const router = express.Router();
 const { addInternship, getInternships, deleteInternship } = require("./internship.controller");
 
-const router = express.Router();
-
-router.post("/add", addInternship);
+// Keep your exact endpoint paths
+router.post("/add", addInternship);  // This matches your frontend call
 router.get("/", getInternships);
 router.delete("/:id", deleteInternship);
 
-module.exports = router; // ✅ Ensure this exports only the router
+module.exports = router;

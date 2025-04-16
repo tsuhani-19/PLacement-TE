@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 const internshipSchema = new mongoose.Schema({
   title: String,
@@ -23,5 +23,4 @@ const removePastInternships = async () => {
 
 
 removePastInternships();
-
-export default Internship; 
+module.exports = mongoose.model("Internship", internshipSchema);

@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // MongoDB Connection
 async function connectDB() {
   try {
-    await mongoose.connect(process.env.DB_URI);
+    await mongoose.connect(process.env.DB_URL);
     console.log("✅ MongoDB is successfully connected");
   } catch (error) {
     console.error("❌ MongoDB Connection Error:", error);
@@ -31,16 +31,32 @@ connectDB();
 
 // Routes
 const authRoutes = require("./src/users/user.route");
-const eventRoutes = require("./src/events/event.routes"); // ✅ Import Event Routes
+// In your main server file (index.js)
+const eventRoutes = require("./src/events/event.routes");
+app.use("/api/events", eventRoutes); // This should match your frontend calls
+// ✅ Import Event Routes
 
 app.use("/api/auth", authRoutes);
-app.use("/api", eventRoutes); // ✅ Use Event Routes
+// ✅ Use Event Routes
+const internshipRoutes = require("./src/internship/internship.routes");
+app.use("/api/internships", internshipRoutes);
 
 // Root Endpoint
 app.get("/", (req, res) => {
   res.send("Hello World");
 });
 
+// Debug route registration
+console.log("🔄 Registered Routes:");
+app._router.stack.forEach((layer) => {
+  if (layer.route) {
+    console.log(`${Object.keys(layer.route.methods)[0].toUpperCase()} ${layer.route.path}`);
+  } else if (layer.name === 'router') {
+    layer.handle.stack.forEach((sublayer) => {
+      console.log(`${Object.keys(sublayer.route.methods)[0].toUpperCase()} ${layer.regexp.source.replace('^\\', '').replace('\\/?$', '')}${sublayer.route.path}`);
+    });
+  }
+});
 // Start Server **only if MongoDB is connected**
 app.listen(port, () => {
   console.log(`🚀 Server is running on port ${port}`);

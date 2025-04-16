@@ -16,6 +16,7 @@ router.post('/register', async (req, res) => {
   }
 });
 
+
 router.post('/login', async (req, res) => {
   const { email, password } = req.body;
   try {
@@ -213,6 +214,7 @@ router.post('/create-admin', async (req, res) => {
     res.status(500).send({ message: 'Error: Unable to create admin' });
   }
 });
+
 
 
 

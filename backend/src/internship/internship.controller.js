@@ -1,4 +1,4 @@
-import Internship from "./internship.model.js"; // ✅ Use ESM import
+const Internship = require("./internship.model");
 
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "secret123";
 
@@ -53,4 +53,4 @@ const deleteInternship = async (req, res) => {
 };
 
 // ✅ Use ESM export
-export { addInternship, getInternships, deleteInternship };
+module.exports = { addInternship, getInternships, deleteInternship };

@@ -16,11 +16,10 @@ body {
   padding: 0;
 }
 
-/* Navbar */
 nav {
-  max-width: var(--max-width);
-  margin: auto;
-  padding: 1rem 1rem; /* Reduced padding */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem; /* Adjusted padding */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,7 +27,8 @@ nav {
   top: 0;
   background: white;
   z-index: 1000;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); /* Subtle bottom border */
 }
 
 .nav__logo a {

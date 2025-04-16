@@ -48,10 +48,10 @@ const year1computer = () => {
   useEffect(() => {
     const fetchInternships = async () => {
       try {
-        const response = await axios.get("http://localhost:5001/api/internships/");
+        const response = await axios.get("http://localhost:5001/api/internships");
         setInternships(response.data.internships);
       } catch (error) {
-        console.error("Error fetching internships:", error);
+        console.error("Error fetching internships:", error.response?.data || error.message);
       }
     };
     fetchInternships();
@@ -64,15 +64,44 @@ const year1computer = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5001/api/internships/add", internshipData);
+      // Verify all required fields are present
+      if (!internshipData.password) {
+        alert("Admin password is required");
+        return;
+      }
+  
+      const response = await axios.post(
+        "http://localhost:5001/api/internships/add", // EXACT endpoint from your backend
+        {
+          ...internshipData,
+          // Ensure dates are properly formatted if needed
+          startDate: internshipData.startDate || new Date(),
+          endDate: internshipData.endDate || new Date()
+        },
+        {
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        }
+      );
+  
       if (response.data.success) {
         setInternships([...internships, response.data.internship]);
         alert("Internship Added Successfully!");
         setShowPanel(false);
-        setInternshipData({ title: "", company: "", description: "", startDate: "", endDate: "", password: "" });
+        setInternshipData({ 
+          title: "", 
+          company: "", 
+          location: "", 
+          description: "", 
+          startDate: "", 
+          endDate: "", 
+          password: "" 
+        });
       }
     } catch (error) {
-      alert("Error adding internship. Please check your input.");
+      console.error("Full error:", error.response?.data || error);
+      alert(`Error: ${error.response?.data?.message || "Failed to add internship"}`);
     }
   };
 
@@ -149,6 +178,72 @@ const year1computer = () => {
           ))}
         </div>
       </section>
+     
+
+      {/* New Learning Hub Section */}
+      <section className="py-12 px-6 bg-white">
+        <h2 className="text-3xl font-bold text-center mb-8">Learning Hub for Future Engineers</h2>
+        <p className="text-lg text-center text-gray-600 max-w-2xl mx-auto mb-10">
+          Kickstart your engineering journey with these essential resources, tips, and tools designed for first-year students.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Resource Card 1 */}
+          <div className="p-6 bg-gray-50 rounded-xl shadow-md hover:shadow-lg transition">
+            <h3 className="text-xl font-semibold mb-2">Master Core Skills</h3>
+            <p className="text-gray-600 mb-4">
+              Start with programming (Python, C++), problem-solving, and basic math skills to build a strong foundation.
+            </p>
+            <a
+              href="https://www.freecodecamp.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 font-semibold hover:underline"
+            >
+              Explore FreeCodeCamp →
+            </a>
+          </div>
+
+          {/* Resource Card 2 */}
+          <div className="p-6 bg-gray-50 rounded-xl shadow-md hover:shadow-lg transition">
+            <h3 className="text-xl font-semibold mb-2">Build Mini Projects</h3>
+            <p className="text-gray-600 mb-4">
+              Create simple projects like a calculator or a to-do list to apply your skills and impress recruiters.
+            </p>
+            <a
+              href="https://www.github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 font-semibold hover:underline"
+            >
+              Start on GitHub →
+            </a>
+          </div>
+
+          {/* Resource Card 3 */}
+          <div className="p-6 bg-gray-50 rounded-xl shadow-md hover:shadow-lg transition">
+            <h3 className="text-xl font-semibold mb-2">Career Tips</h3>
+            <p className="text-gray-600 mb-4">
+              Network early, join tech communities, and attend workshops to stand out in the job market.
+            </p>
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 font-semibold hover:underline"
+            >
+              Connect on LinkedIn →
+            </a>
+          </div>
+        </div>
+
+        {/* Motivational Quote */}
+        <div className="mt-10 text-center">
+          <p className="text-xl italic text-gray-700">
+            "The best way to predict the future is to create it." – Peter Drucker
+          </p>
+       
+        </div>
+      </section>
 
       {/* Internship Form Panel */}
       {showPanel && (
@@ -173,6 +268,7 @@ const year1computer = () => {
         </div>
       )}
     </div>
+    
   );
 };
 

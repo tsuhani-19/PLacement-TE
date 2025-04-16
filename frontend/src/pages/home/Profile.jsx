@@ -10,6 +10,188 @@ const Profile = () => {
     const [updateUserProfile] = useUpdateUserProfileMutation();
     const { data: userData, refetch } = useGetUserQuery();
     const navigate = useNavigate();
+    // Define branch-specific company options (this could come from the backend)
+    const branchCompanyMap = {
+        Computer: [
+            "TCS",
+            "Infosys",
+            "Wipro",
+            "Amazon",
+            "Google",
+            "Microsoft",
+            "IBM",
+            "Accenture",
+            "Seclore",
+            "Nucsoft",
+            "CEDCOSS TECHNOLOGIES",
+            "MY PLAN 8",
+            "LUMENS TECHNOLOGIES",
+            "SOGOLYTICS",
+            "MEDIA.NET",
+            "JARO EDUCATION",
+            "ZEUS LEARNING",
+            "VISTAAR",
+            "SYSTENICS SOLUTION",
+            "SALES FORCE",
+            "EXPOUND TECHNIVO",
+            "DIGI PLUS",
+            "CODEARRAY",
+            "SANKEY SOLUTION",
+            "ICICI SECURITIES LTD",
+            "QSPIDERS",
+            "EXCELR",
+            "AXIS BANK",
+            "JFE ENGINEERING",
+            "NIMAP INFOTECH",
+            "GLOBAL LOGIC TECHNOLOGIES PVT LTD",
+            "NEXTEP CONTRUCTION",
+            "KARZA TECHNOLOGIES PVT LTD",
+            "SPINNAKERANALYTICS",
+            "DWAO",
+            "OSOS",
+            "ATLAN",
+            "RUBRIK",
+            "SBI YOUTH FOR INDIA",
+            "TALAKUNCHI NETWORKS PVT LTD",
+            "AUTOMATION EDGE TECHNOLOGIES",
+            "IT MNC- BEACON HEALTHCARE SYSTEMS",
+            "CMSS",
+            "KELP GLOBAL",
+            "M/S JAGDISH PRASAD AGRAWAL",
+            "TATA AUTOCOMP SYSTEM",
+            "L & T CONTRUCTION LTD",
+            "SUZLON GLOBAL SERVICES",
+            "ALL WAVE AV SYSTEM",
+            "REALINCE",
+            "GODREJ",
+            "VOLTAGO ELECTRICALS PVT. LTD.",
+            "CRED",
+            "PERCH TECHNOLOGIES PRIVATE LIMITED",
+            "LUMINOUS POWER TECHNOLOGIES",
+            "ROBOKART",
+            "RELIANCE INDUSTRIES LIMITED (RIL)",
+            "VIP",
+            "QUALITY KIOSK",
+            "MYRIAD SOLUTIONS",
+            "MAXEFF ENGINEERING PVT LTD",
+            "SUTHERLAND",
+            "HPCL",
+            "QUANTASIS",
+            "NLC INDIA LTD",
+            "NTT DATA",
+            "RAGHUVIR DEVELOPERS & BUILDERS",
+            "TATA PROJECT LTD",
+            "AURA JEWELS",
+            "YMS",
+            "BALMER LAWRIE & CO. LTD.",
+            "JUSPAY",
+            "MASTERCARD",
+            "ABSSOLUTE MECHATRONICS",
+            "SALMAN PLACEMENT",
+            "SHIELD BYTE INFOSEC PVT. LTD.",
+            "DOLANTO ENGINEERING PVT. LTD.",
+            "MERKLE",
+            "J FOURCE",
+            "CRM"
+          ],
+        Electronics: [
+          "Texas Instruments",
+          "Intel",
+          "Qualcomm",
+          "Samsung",
+          "NVIDIA",
+          "Bosch",
+          "Siemens",
+          "Honeywell",
+        ],
+        Mechanical: [
+            "5G R&D DIVISION",
+            "ZEECO INDIA",
+            "PARAS CADD PVT LTD",
+            "ALTERA DIGITAL HEALTH",
+            "MEGA PIPES PVT LTD",
+            "INTERNATIONAL INDUSTRIAL SPRINGS",
+            "MASTEK",
+            "DAVISON INSTRUMENTS PVT LTD",
+            "STANDARD GROUP",
+            "TECNIK",
+            "HINDALCO INDUSTRIES LTD",
+            "SKF INDIA LIMITED",
+            "GAJANAN ISPAT PVT LTD",
+            "ASHOK ENGINEERING WORKS",
+            "STABLE MONEY",
+            "NISIKI INDIA PVT LTD",
+            "NOZZLE AUTO ASSOCIATION PVT LTD",
+            "RADIANCE RENEWABLES PVT LTD",
+            "BECTOR AUTOMATION RML INDIA PVT LTD",
+            "SEA MARINE INSPECTION SERVICES",
+            "AMBETRONICS",
+            "MAERSK",
+            "EXICOM TECHNOLOGIES INDIA PVT LTD",
+            "RADHAKRISHNA AGRO INDUSTRIES PVT LTD",
+            "KREATE ENERGY",
+            "EPSILON DESIGN CONSULTANCY",
+            "GOMA ENGINEERING PVT LTD",
+            "KAVIN ENGINEERING AND SERVICES PVT LTD",
+            "KROLL",
+            "SELECT CONTROL",
+            "ITD CEMENTATUION INDIA PVT LTD",
+            "CR AUTOMATION PVT LTD",
+            "RR PLAST EXTRUSION PVT LTD",
+            "SHRI SEVALAL CONTRUCTION PVT LTD",
+            "SULZER",
+            "MEIL",
+            "ABM KNOWLEDGEWARE",
+            "SCHEMAPHIC SYSTEMS INDIA PVT LTD",
+            "MICRO TESTING LAB SOLUTION PVT LTD",
+            "FESTO",
+            "SHIELD BYTE INFOSEC PVT. LTD.",
+            "DOLANTO ENGINEERING PVT. LTD.",
+            "MEDIA.NET",
+            "MERKLE",
+            "QUANTASIS",
+            "J FOURCE",
+            "SECLORE",
+            "CRM",
+            "TCS",
+            "ACCENTURE",
+            "GODREJ",
+            "JARO EDUCATION",
+            "VOLTAGO ELECTRICALS PVT. LTD.",
+            "CRED",
+            "PERCH TECHNOLOGIES PRIVATE LIMITED",
+            "LUMINOUS POWER TECHNOLOGIES",
+            "ROBOKART",
+            "RELIANCE INDUSTRIES LIMITED (RIL)",
+            "VIP",
+            "QUALITY KIOSK",
+            "MAXEFF ENGINEERING PVT LTD",
+            "SUTHERLAND",
+            "HPCL",
+            "H. K. INFRA ENGINEERING",
+            "NLC INDIA LTD",
+            "NTT DATA",
+            "RAGHUVIR DEVELOPERS & BUILDERS",
+            "TATA PROJECT LTD",
+            "AURA JEWELS",
+            "YMS",
+            "BALMER LAWRIE & CO. LTD.",
+            "JUSPAY",
+            "MASTERCARD",
+            "IBM",
+            "ABSSOLUTE MECHATRONICS",
+            "SALMAN PLACEMENT"
+          ],
+        Civil: [
+          "L&T",
+          "DLF",
+          "Tata Projects",
+          "Gammon India",
+          "Jaypee Group",
+          "Punj Lloyd",
+          "Shapoorji Pallonji",
+        ],
+      };
 
     const [formData, setFormData] = useState({
         Name: "",
@@ -163,6 +345,13 @@ const Profile = () => {
   
 
     const defaultAvatarUrl = "/images/default-avatar.png"; // Path to default avatar
+// Normalize Branch for lookup
+const normalizedBranch = formData.Branch
+? formData.Branch.charAt(0).toUpperCase() + formData.Branch.slice(1).toLowerCase()
+: "";
+const companyOptions = normalizedBranch
+? branchCompanyMap[normalizedBranch] || ["No companies available for this branch"]
+: ["Select a branch first"];
 
     return (
       <div className="container mx-auto p-8 max-w-2xl bg-gray-100 rounded shadow-lg">
@@ -268,23 +457,19 @@ const Profile = () => {
     Preferred Company
   </label>
   <select
-    id="preferedcompany"
-    name="preferedcompany"
-    value={formData.preferedcompany} // Controlled value
-    onChange={handleChange} // Handle changes
-    className="w-full border rounded-lg p-2 text-gray-700"
-  >
-    <option value="">Select a company</option>
-    <option value="TCS">TCS</option>
-    <option value="SECLORE">SECLORE</option>
-    <option value="NUCSOFT">NUCSOFT</option>
-    <option value="AMAZON">AMAZON</option>
-    <option value="IBM">IBM</option>
-    <option value="ACCENTURE">Accenture</option>
-    <option value="INFOSYS">Infosys</option>
-    <option value="WIPRO">Wipro</option>
-    {/* Add more companies as needed */}
-  </select>
+            id="preferedcompany"
+            name="preferedcompany"
+            value={formData.preferedcompany}
+            onChange={handleChange}
+            className="w-full border rounded-lg p-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            <option value="">Select a company</option>
+            {companyOptions.map((company, index) => (
+              <option key={index} value={company}>
+                {company}
+              </option>
+            ))}
+          </select>
 </div>
 
              
